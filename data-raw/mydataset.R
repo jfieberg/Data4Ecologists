@@ -2,7 +2,9 @@
 
 
 CovidMN<-read.csv("data-raw/minnesota-history.csv")
-
+CovidMN<- CovidMN %>% select(date, death, deathConfirmed, deathProbable, hospitalizedCumulative, hospitalizedCurrently,
+                             inIcuCumulative, inIcuCurrently, negative, negativeTestsViral, positive, positiveCasesViral,
+                             positiveIncrease, recovered, totalTestEncountersViral, totalTestResults, totalTestsAntigen)
 
 # This should be the last line.
 # Note that names are unquoted.

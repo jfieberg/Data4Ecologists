@@ -1,0 +1,24 @@
+#' @title CovidMN
+#' @description Data on covid 19 testing and results from Minnesota, downloaded on January 15, 2021.
+#' @format A data frame with 315 rows and 42 variables:
+#' \describe{
+#'   \item{\code{date}}{character Date on which data was collected by The COVID Tracking Project.}
+#'   \item{\code{death}}{integer Total fatalities with confirmed OR probable COVID-19 case diagnosis}
+#'   \item{\code{deathConfirmed}}{integer Total fatalities with confirmed COVID-19 case diagnosis}
+#'   \item{\code{deathProbable}}{integer Total fatalities with probable COVID-19 case diagnosis }
+#'   \item{\code{hospitalizedCumulative}}{integer Total number of individuals who have ever been hospitalized under advanced ventilation with COVID-19. }
+#'   \item{\code{hospitalizedCurrently}}{integer Individuals who are currently hospitalized with COVID-19}
+#'   \item{\code{inIcuCumulative}}{integer Total number of individuals who have ever been hospitalized in the Intensive Care Unit with COVID-19.}
+#'   \item{\code{inIcuCurrently}}{integer Individuals who are currently hospitalized in the Intensive Care Unit with COVID-19.}
+#'   \item{\code{negative}}{integer Total number of unique people with a completed PCR test that returns negative. }
+#'   \item{\code{negativeTestsViral}}{integer Total number of completed PCR tests (or specimens tested) that return negative as reported by the state or territory. }
+#'   \item{\code{positive}}{integer Total number of confirmed plus probable cases of COVID-19 reported by the state}
+#'   \item{\code{positiveCasesViral}}{integer Total number of unique people with a positive PCR or other approved nucleic acid amplification test (NAAT), as reported by the state or territory. }
+#'   \item{\code{positiveIncrease}}{integer The daily increase in API field positive, which measures Cases (confirmed plus probable) calculated based on the previous day’s value.}
+#'   \item{\code{recovered}}{integer Total number of people that are identified as recovered from COVID-19.}
+#'   \item{\code{totalTestEncountersViral}}{integer Total number of people tested per day via PCR testing as reported by the state or territory.}
+#'   \item{\code{totalTestResults}}{integer at best an estimate of US viral (PCR) testing}
+#'   \item{\code{totalTestsAntigen}}{integer Total number of completed antigen tests, as reported by the state or territory.}
+#'}
+#' @source \url{https://covidtracking.com/about-data/data-definitions}
+"CovidMN"
