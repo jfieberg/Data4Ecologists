@@ -1,0 +1,17 @@
+Package: Data4Ecologists
+Title: Data Assoicated with Statistics for Ecologists
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "John",
+           family = "Fieberg",
+           role = c("aut", "cre"),
+           email = "jfieberg@umn.edu",
+           comment = c(ORCID = "0000-0002-3180-7021"))
+Description: This package contains a collection of data sets associated with the book, Statistics for Ecologists.
+License:  `use_gpl3_license()`  
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
