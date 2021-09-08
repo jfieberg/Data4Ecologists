@@ -1,6 +1,9 @@
 ## code to prepare `mydataset` dataset goes here
 
+#----------------------------------------------------------------
+# CovidMN data set
 
+library(dplyr)
 CovidMN<-read.csv("data-raw/minnesota-history.csv")
 CovidMN<- CovidMN %>% select(date, death, deathConfirmed, deathProbable, hospitalizedCumulative, hospitalizedCurrently,
                              inIcuCumulative, inIcuCurrently, negative, negativeTestsViral, positive, positiveCasesViral,
@@ -11,3 +14,10 @@ CovidMN<- CovidMN %>% select(date, death, deathConfirmed, deathProbable, hospita
 # I like using overwrite = T so everytime I run the script the
 # updated objects are saved, but the default is overwrite = F
 usethis::use_data(CovidMN, overwrite = TRUE)
+
+
+#----------------------------------------------------------------
+# Trombone data set
+
+trombone<-read.csv("data-raw/TrombonePractice.csv")
+usethis::use_data(trombone, overwrite = TRUE)

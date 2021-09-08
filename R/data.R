@@ -1,6 +1,6 @@
 #' @title CovidMN
 #' @description Data on covid 19 testing and results from Minnesota, downloaded on January 15, 2021.
-#' @format A data frame with 315 rows and 42 variables:
+#' @format A data frame with 315 rows and 17 variables:
 #' \describe{
 #'   \item{\code{date}}{character Date on which data was collected by The COVID Tracking Project.}
 #'   \item{\code{death}}{integer Total fatalities with confirmed OR probable COVID-19 case diagnosis}
@@ -22,3 +22,17 @@
 #'}
 #' @source \url{https://covidtracking.com/about-data/data-definitions}
 "CovidMN"
+
+
+#' @title trombone
+#' @description Comparison of 5 experimental practice conditions for 30 trombonists from 3 colleges. Pre-test and post-test scores.
+#' @format A data frame with 30 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Condition}}{integer 1=All Physical Practice  (PP), 2=All mental practice  (MP), 3=Combination of physical and mental (CP), 4=Mental Practice with simulated slide movement (MPS), 5= No Practice Control  (NP)}
+#'   \item{\code{Pre.Practice}}{integer Pre-practice test score}
+#'   \item{\code{Post.Practice}}{integer Post-practice test score}
+#'}
+#' @source S.L. Ross(1985). "The Effectiveness of Mental Practice in Improving the Performance of College Trombonists," Journal of Research in Music Education, Vol.33, 4, pp.221-230. \url{http://users.stat.ufl.edu/~winner/datasets.html}
+"trombone"
+
+

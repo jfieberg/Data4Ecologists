@@ -5,7 +5,7 @@
 \alias{CovidMN}
 \title{CovidMN}
 \format{
-A data frame with 315 rows and 42 variables:
+A data frame with 315 rows and 17 variables:
 \describe{
 \item{\code{date}}{character Date on which data was collected by The COVID Tracking Project.}
 \item{\code{death}}{integer Total fatalities with confirmed OR probable COVID-19 case diagnosis}
