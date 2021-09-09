@@ -4,7 +4,14 @@ This package contains several data sets associated with the book, *Statistics fo
 
 **Data sets:**
 
-- CovidMN: 
+- **clutch**:  Mallard (*Anas platyhynchos*) clutch sizes in two types of nest structures and cropland area within a 3.2-km radius circular buffer around the nest structure in western Minnesota during 1997–1999.
+#'  of each structure in the landscape in western Minnesota during 1997–1999.
+- **CovidMN**: data on covid cases in Minnesota, downloaded on January 15, 2021
+- **Kelp**: data from a study of the effect of various environmental factors on the shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*.
+- **longnosedace**: abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
+- **partialr**: simulated data set used to demonstrate added-variable and component + residual plots
+- **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast. Th 
+- **trombone**: comparison of 5 experimental practice conditions for 30 trombonists from 3 colleges.  
 
 
 # Installation
@@ -12,7 +19,7 @@ This package contains several data sets associated with the book, *Statistics fo
 To installing the package, you will need to use the `devtools` package:
 
 
-```{r}
+```R
 #install.packages("devtoosls")
 
 devtools::install_github("jfieberg/Data4Ecologists")

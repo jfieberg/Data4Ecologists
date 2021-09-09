@@ -7,11 +7,13 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jfieberg@umn.edu",
            comment = c(ORCID = "0000-0002-3180-7021"))
-Description: This package contains a collection of data sets associated with the book, Statistics for Ecologists.
-License:  `use_gpl3_license()`  
+Maintainer: John Fieberg <jfieberg@umn.edu>
+Description: This package contains a collection of data sets associated with the book, *Statistics for Ecologists*.
+License:  CC0  
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
+URL: https://github.com/jfieberg/Data4Ecologists
