@@ -62,3 +62,16 @@ partialr <- data.frame(x1=x1, x2=x2, x3=x3, x4=x4, y=y)
 #summary(lm(y~., data=partialr))
 #summary(lm(y~x1, data=partialr))
 usethis::use_data(partialr, overwrite = TRUE)
+
+
+#--------------------------------------------------------------
+# Kelp
+Kelp <- read.csv("data-raw/Graham.csv")
+usethis::use_data(Kelp, overwrite = TRUE)
+
+#data were reanalyzed from a study
+#of the effect of various environmental factors (wave
+#                                                orbital displacement, wave breaking depth, wind velocity,
+#                                                and mean tidal height) on the shallow (upper)
+#distributional limit of the subtidal kelp Macrocystis
+#pyrifera (Graham 1997).

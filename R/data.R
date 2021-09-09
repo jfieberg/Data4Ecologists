@@ -107,3 +107,16 @@ NULL
 #' with x3 (due to its correlation with x1).
 "partialr"
 
+#' @title Kelp
+#' @description Data from a study of the effect of various environmental factors (wave orbital displacement, wave breaking depth,
+#' wind velocity, and mean tidal height) on the shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*.
+#' @format A data frame with 38 rows and 5 variables:
+#' \describe{
+#'   \item{\code{Resposne}}{double shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*}
+#'   \item{\code{OD}}{double wave orbital displacement (in meters)}
+#'   \item{\code{BD}}{double wave breaking depth (in meters)}
+#'   \item{\code{LTD}}{double average tidal height (in meters)}
+#'   \item{\code{W}}{double wind velocity (in meters/s)}
+#'}
+#' @source Graham, M. H. (2003). Confronting multicollinearity in ecological multiple regression. Ecology, 84(11), 2809-2815. \url{https://esapubs.org/archive/ecol/E084/073/suppl-1.htm}
+"Kelp"
