@@ -1,6 +1,17 @@
+# Some helpful information to get started
+#
+# A helpful blog detailing the steps used to create a data package:
+#     https://grasshoppermouse.github.io/posts/2017-10-18-put-your-data-in-an-r-package/
+# And, a more detailed book on building R packages: https://r-pkgs.org/index.html
 
+# Steps:
+# 1. Add code to create the data set here
+# 2. Create documentation, using
 
-#sinew::makeOxygen(mydataset, add_fields = "source")
+# sinew::makeOxygen(datasetname, add_fields = "source")
+
+# 3. Build tab in Rstudio:  click (More) -> Document, then Install and Restart
+
 
 #----------------------------------------------------------------
 # CovidMN data set
@@ -69,9 +80,9 @@ usethis::use_data(partialr, overwrite = TRUE)
 Kelp <- read.csv("data-raw/Graham.csv")
 usethis::use_data(Kelp, overwrite = TRUE)
 
-#data were reanalyzed from a study
-#of the effect of various environmental factors (wave
-#                                                orbital displacement, wave breaking depth, wind velocity,
-#                                                and mean tidal height) on the shallow (upper)
-#distributional limit of the subtidal kelp Macrocystis
-#pyrifera (Graham 1997).
+
+#--------------------------------------------------------------
+# slugs
+slugs <- read.csv("data-raw/slugs.csv")
+usethis::use_data(slugs, overwrite = TRUE)
+

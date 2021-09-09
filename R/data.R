@@ -120,3 +120,13 @@ NULL
 #'}
 #' @source Graham, M. H. (2003). Confronting multicollinearity in ecological multiple regression. Ecology, 84(11), 2809-2815. \url{https://esapubs.org/archive/ecol/E084/073/suppl-1.htm}
 "Kelp"
+
+#' @title slugs
+#' @description number of slugs found beneath 40 tiles in each of two permanent grasslands.
+#' @format A data frame with 80 rows and 2 variables:
+#' \describe{
+#'   \item{\code{slugs}}{integer count of the number of slugs under a tile}
+#'   \item{\code{field}}{character unique indicator for each grassland field (Nursery or Rookery)}
+#'}
+#' @source Crawley, M. J. (2012). The R book. John Wiley & Sons.\url{http://www.bio.ic.ac.uk/research/mjcraw/statcomp/data/slugsurvey.txt}
+"slugs"
