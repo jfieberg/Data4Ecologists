@@ -86,3 +86,12 @@ usethis::use_data(Kelp, overwrite = TRUE)
 slugs <- read.csv("data-raw/slugs.csv")
 usethis::use_data(slugs, overwrite = TRUE)
 
+#--------------------------------------------------------------
+# beargrowth
+beargrowth <- read.csv("data-raw/beardata.csv")
+beargrowth <- beargrowth %>% filter(season==1) %>% select(c(ID, sex, age, wtkg))
+names(beargrowth)<-tolower(names(beargrowth))
+
+usethis::use_data(beargrowth, overwrite = TRUE)
+
+

@@ -130,3 +130,16 @@ NULL
 #'}
 #' @source Crawley, M. J. (2012). The R book. John Wiley & Sons.\url{http://www.bio.ic.ac.uk/research/mjcraw/statcomp/data/slugsurvey.txt}
 "slugs"
+
+
+#' @title beargrowth
+#' @description size and weigth measurements for 390 black bears monitored in Minnesota
+#' @format A data frame with 835 rows and 4 variables:
+#' \describe{
+#'   \item{\code{id}}{integer unique identifier for each bear}
+#'   \item{\code{sex}}{character sex of the individual}
+#'   \item{\code{age}}{integer age of the individual in years}
+#'   \item{\code{wtkg}}{double weight in kilograms}
+#'}
+#' #@source
+"beargrowth"

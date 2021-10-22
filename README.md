@@ -20,7 +20,7 @@ To installing the package, you will need to use the `devtools` package:
 
 
 ```R
-#install.packages("devtoosls")
+#install.packages("devtools")
 
 devtools::install_github("jfieberg/Data4Ecologists")
 ```
