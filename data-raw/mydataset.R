@@ -94,4 +94,6 @@ names(beargrowth)<-tolower(names(beargrowth))
 
 usethis::use_data(beargrowth, overwrite = TRUE)
 
-
+#------------------------------------------------------
+elephantmove <- readRDS("data-raw/Movementvariation.rds")
+usethis::use_data(elephantmove, overwrite = TRUE)

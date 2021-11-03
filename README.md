@@ -7,6 +7,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **clutch**:  Mallard (*Anas platyhynchos*) clutch sizes in two types of nest structures and cropland area within a 3.2-km radius circular buffer around the nest structure in western Minnesota during 1997–1999.
 - **beargrowth**: age and weight data from a sample of black bears monitoried in Minnesota.
 - **CovidMN**: data on covid cases in Minnesota, downloaded on January 15, 2021
+- **elephantmove**: weekly movement metrics calculated using location data from 35 African elephants between 2008 and 2015
 - **Kelp**: data from a study of the effect of various environmental factors on the shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*.
 - **longnosedace**: abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
 - **partialr**: simulated data set used to demonstrate added-variable and component + residual plots
