@@ -166,3 +166,14 @@ NULL
 #' Hertel, A. G., Niemelä, P. T., Dingemanse, N. J., & Mueller, T. (2020). A guide for studying among-individual behavioral variation from movement data in the wild. Movement ecology, 8(1), 1-18.
 "elephantmove"
 
+
+#' @title Selake
+#' @description A fictitious (but realistic) data set from Schwarz (2014) based on an environmental review of a coal mining project.
+#' @format A data frame with 83 rows and 3 variables:
+#' \describe{
+#'   \item{\code{Lake}}{character unique lake identifier}
+#'   \item{\code{Log_Water_Se}}{double concentration of Selenium in the water}
+#'   \item{\code{Log_fish_Se}}{double concentration of Selenium in a fish}
+#'}
+#' @source Data from Schwarz, C. J. (2014). Ch 16: Regression with pseudo-replication. In Course Notes for Beginning and Intermediate Statistics. Available at http://www.stat.sfu.ca/~cschwarz/CourseNotes. Retrieved 2015-03-1 and http://people.stat.sfu.ca/~cschwarz/Stat-650/Notes/MyPrograms/Reg-pseudo/Se-Lake/Se-lake.html
+"Selake"
