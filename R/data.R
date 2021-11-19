@@ -177,3 +177,17 @@ NULL
 #'}
 #' @source Data from Schwarz, C. J. (2014). Ch 16: Regression with pseudo-replication. In Course Notes for Beginning and Intermediate Statistics. Available at http://www.stat.sfu.ca/~cschwarz/CourseNotes. Retrieved 2015-03-1 and http://people.stat.sfu.ca/~cschwarz/Stat-650/Notes/MyPrograms/Reg-pseudo/Se-Lake/Se-lake.html
 "Selake"
+
+
+
+#' @title pines
+#' @description data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland from Bigler (2016).
+#' @format A data frame with 160 rows and 4 variables:
+#' \describe{
+#'   \item{\code{site}}{character site of data collection}
+#'   \item{\code{Aspect}}{character main aspect of the study site}
+#'   \item{\code{age}}{double lifespan of a tree (in years). This variable corresponds to the variable `longest.core.age` in the file Data1.txt located here: \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.d2680}.}
+#'   \item{\code{dbh}}{double the DBH (diameter at breast height) inside bark (unit: cm). The variable corresponds to the maximum DBH value measured for a core in the variable "DBH" in the file Data1.txt located here: \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.d2680}.}
+#'}
+#' @source Bigler, C. (2016). Trade-offs between growth rate, tree size and lifespan of mountain pine (Pinus montana) in the Swiss National Park. PloS one, 11(3), e0150402. \url{http://somewhere.important.com/}
+"pines"
