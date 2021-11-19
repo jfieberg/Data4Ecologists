@@ -189,5 +189,5 @@ NULL
 #'   \item{\code{age}}{double lifespan of a tree (in years). This variable corresponds to the variable `longest.core.age` in the file Data1.txt located here: \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.d2680}.}
 #'   \item{\code{dbh}}{double the DBH (diameter at breast height) inside bark (unit: cm). The variable corresponds to the maximum DBH value measured for a core in the variable "DBH" in the file Data1.txt located here: \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.d2680}.}
 #'}
-#' @source Bigler, C. (2016). Trade-offs between growth rate, tree size and lifespan of mountain pine (Pinus montana) in the Swiss National Park. PloS one, 11(3), e0150402. \url{http://somewhere.important.com/}
+#' @source Bigler, C. (2016). Trade-offs between growth rate, tree size and lifespan of mountain pine (Pinus montana) in the Swiss National Park. PloS one, 11(3), e0150402.
 "pines"

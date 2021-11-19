@@ -14,7 +14,7 @@ A data frame with 160 rows and 4 variables:
 }
 }
 \source{
-Bigler, C. (2016). Trade-offs between growth rate, tree size and lifespan of mountain pine (Pinus montana) in the Swiss National Park. PloS one, 11(3), e0150402. \url{http://somewhere.important.com/}
+Bigler, C. (2016). Trade-offs between growth rate, tree size and lifespan of mountain pine (Pinus montana) in the Swiss National Park. PloS one, 11(3), e0150402.
 }
 \usage{
 pines
