@@ -11,6 +11,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **Kelp**: data from a study of the effect of various environmental factors on the shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*.
 - **Selake**: A fictitious (but realistic) data containing logged Selenium concentrations in a set of 9 lakes and a sample of 83 fish from these lakes. 
 - **longnosedace**: abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
+- **nestocc**: nest occupancy data from a study of mallard nest boxes in Minnesota.
 - **partialr**: simulated data set used to demonstrate added-variable and component + residual plots
 - **pines**:  data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland.
 - **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast. Th 
