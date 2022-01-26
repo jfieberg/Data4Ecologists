@@ -212,3 +212,20 @@ NULL
 #'
 #' Zicus, M. C., D. P. Rave, and J. Fieberg. (2006). Cost effectiveness of single vs. double-cylinder over-water nest structures. Wildlife Society Bulletin 34:647-655.
 "nestocc"
+
+
+#' @title gala
+#' @description  plant species richness for 29 islands in the Galapagos Islands archipelago
+#' @format A data frame with 29 rows and 8 variables:
+#' \describe{
+#'   \item{\code{Island}}{character island where the observation was taken}
+#'   \item{\code{Species}}{integer Number of species found on the island}
+#'   \item{\code{Endemics}}{integer Number of endemic species found on the island}
+#'   \item{\code{Area}}{double Area of the island (km^2)}
+#'   \item{\code{Elevation}}{integer Elevation of island peak (m)}
+#'   \item{\code{Nearest.dist}}{double Distance to nearest other island (km)}
+#'   \item{\code{Santacruz.dist}}{double Distance to Santa Cruz island (km)}
+#'   \item{\code{Adjacent.isl.area}}{double Area of nearest other island (km^2)}
+#'}
+#' @source Johnson, M.P., and Raven, P.H. (1973). Species number and endemism: The Galapagos Archipelago revisited. Science, 179, 893-895.
+"gala"
