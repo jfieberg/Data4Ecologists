@@ -18,7 +18,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast. Th 
 - **slugs**: number of slugs found beneath 40 tiles in each of two permanent grasslands.
 - **trombone**: comparison of 5 experimental practice conditions for 30 trombonists from 3 colleges.  
-
+- **trunkfl**: data set containing measurements of trunk flare diameter and diameter at breast height for different species of trees in Minnesota cities. The data were collected for the purpose of developing predictive models to inform management planning for city streets trees with the goal of reducing sidewalk damage.
 
 # Installation
 
