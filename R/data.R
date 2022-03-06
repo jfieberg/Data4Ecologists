@@ -247,3 +247,21 @@ NULL
 #'}
 #' @source  North, E. A., Johnson, G. R., & Burk, T. E. (2015). Trunk flare diameter predictions as an infrastructure planning tool to reduce tree and sidewalk conflicts. Urban Forestry & Urban Greening, 14(1), 65-71.
 "trunkfl"
+
+
+
+#' @title parasitoidlifespan
+#' @description survival data collected for a parasitoid (*Aphelinus certus*) of the soybean aphid (*Aphis glycines*) over a range of host densities using a laboratory assay.
+#' @format A data frame with 55 rows and 6 variables:
+#' \describe{
+#'   \item{\code{treatment}}{double aphid density (0.5 = one aphid every other day)}
+#'   \item{\code{replicate}}{integer Number assigned to each individual replicated for a treatment.}
+#'   \item{\code{start_date}}{character Start date formatted by MM/DD/YYYY}
+#'   \item{\code{end_date}}{character End date formatted by MM/DD/YYYY}
+#'   \item{\code{age_at_death}}{integer age of parasitoid at death (in days)}
+#'   \item{\code{status}}{integer 1 = no issues; 0 = parasitoid lost during assay, censor data; -1 = parasitoid lost at start, replacement replicate added}
+#'}
+#' @source  Miksanek, James Rudolph; Heimpel, George E. (2019). Soybean Aphid and Aphelinus certus Development (2017–2019). Retrieved from the Data Repository for the University of Minnesota, https://doi.org/10.13020/rhbq-rc90.
+#'
+#' See also Miksanek, J. R., & Heimpel, G. E. (2020). Density-dependent lifespan and estimation of life expectancy for a parasitoid with implications for population dynamics. Oecologia, 194(3), 311–320.
+"parasitoidlifespan"
