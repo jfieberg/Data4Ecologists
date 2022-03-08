@@ -265,3 +265,29 @@ NULL
 #'
 #' See also Miksanek, J. R., & Heimpel, G. E. (2020). Density-dependent lifespan and estimation of life expectancy for a parasitoid with implications for population dynamics. Oecologia, 194(3), 311–320.
 "parasitoidlifespan"
+
+
+
+#' @title willowtits
+#' @description  detection/non-detection and count data of willow tits (*Poecile montanus*) during the Swiss Survey of Common Breeding Birds.
+#' @format A data frame with 237 rows and 16 variables:
+#' \describe{
+#'   \item{\code{c.1}}{integer count of willow tits on the first of three survey occassions}
+#'   \item{\code{c.2}}{integer count of willow tits on the second of three survey occassions}
+#'   \item{\code{c.3}}{integer count of willow tits on the third of three survey occassions}
+#'   \item{\code{day.1}}{integer Julian date of the first survey occassion}
+#'   \item{\code{day.2}}{integer Julian date of the second survey occassion}
+#'   \item{\code{day.3}}{integer Julian date of the third survey occassion}
+#'   \item{\code{dur.1}}{integer duration of the first survey occassion (min)}
+#'   \item{\code{dur.2}}{integer duration of the second survey occassion (min)}
+#'   \item{\code{dur.3}}{integer duration of the third survey occassion (min)}
+#'   \item{\code{elev}}{integer elevation (m)}
+#'   \item{\code{forest}}{integer percent forest cover}
+#'   \item{\code{length}}{double transect length (km)}
+#'   \item{\code{y}}{double indicator variable equal to 1 if at least 1 willow tit was observed in one of the three surveys and 0 otherwise}
+#'   \item{\code{y.1}}{integer indicator variable equal to 1 if at least 1 willow tit was observed in the first of three surveys and 0 otherwise}
+#'   \item{\code{y.2}}{integer indicator variable equal to 1 if at least 1 willow tit was observed in seconed of three surveys and 0 otherwise}
+#'   \item{\code{y.3}}{integer indicator variable equal to 1 if at least 1 willow tit was observed in third of three surveys and 0 otherwise}
+#'}
+#'
+"willowtits"
