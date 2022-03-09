@@ -16,6 +16,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **longnosedace**: abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
 - **nestocc**: nest occupancy data from a study of mallard nest boxes in Minnesota.
 - **partialr**: simulated data set used to demonstrate added-variable and component + residual plots
+- **plantherb**: data set containing information on plant-herbivore interactions
 - **pines**:  data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland.
 - **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast. Th 
 - **slugs**: number of slugs found beneath 40 tiles in each of two permanent grasslands.

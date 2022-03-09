@@ -306,3 +306,19 @@ NULL
 #'}
 #' @source These data were used by Jack Weiss in his ecological statistics course (site no longer available). The data almost surely come from Kennedy, C. M., Marra, P. P., Fagan, W. F., & Neel, M. C. (2010). Landscape matrix and species traits mediate responses of Neotropical resident birds to forest fragmentation in Jamaica. Ecological Monographs, 80(4), 651-669.
 "birds"
+
+
+
+#' @title plantherb
+#' @description data set containing information on plant-herbivore interactions
+#' @format A data frame with 476 rows and 6 variables:
+#' \describe{
+#'   \item{\code{Subject}}{character number that identifies the individual plant}
+#'   \item{\code{Location}}{character factor that indentifies each location. There are 6 locations.	}
+#'   \item{\code{Species}}{character actor that identifies each species. There are 4 species.}
+#'   \item{\code{Damaged}}{integer number of damaged heads in an individual plant}
+#'   \item{\code{Dissected}}{integer  number of dissected heads in an individual plant}
+#'   \item{\code{Total_heads}}{integer  number of total heads produced in an individual plant}
+#'}
+#' @source  Data are from Blasco‐Moreno, A., Pérez‐Casany, M., Puig, P., Morante, M., & Castells, E. (2019). What does a zero mean? Understanding false, random and structural zeros in ecology. Methods in Ecology and Evolution, 10(7), 949-959 and can also be accessed here:  https://ddd.uab.cat/record/194390
+"plantherb"
