@@ -291,3 +291,18 @@ NULL
 #'}
 #'
 "willowtits"
+
+
+
+#' @title birds
+#' @description bird species richness in different habitat patches sampled in Jamaica.
+#' @format A data frame with 306 rows and 5 variables:
+#' \describe{
+#'   \item{\code{patch}}{character identifier for each habitat patch}
+#'   \item{\code{S}}{integer species richness (number of unique species observed)}
+#'   \item{\code{landscape}}{character landscape type (Agriculture, Bauxite, Forest, or Urban )}
+#'   \item{\code{area}}{double area of the habitat patch (ha)}
+#'   \item{\code{log.area.}}{double log area of the habitat patch}
+#'}
+#' @source These data were used by Jack Weiss in his ecological statistics course (site no longer available). The data almost surely come from Kennedy, C. M., Marra, P. P., Fagan, W. F., & Neel, M. C. (2010). Landscape matrix and species traits mediate responses of Neotropical resident birds to forest fragmentation in Jamaica. Ecological Monographs, 80(4), 651-669.
+"birds"
