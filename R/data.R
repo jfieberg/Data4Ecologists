@@ -322,3 +322,14 @@ NULL
 #'}
 #' @source  Data are from Blasco‐Moreno, A., Pérez‐Casany, M., Puig, P., Morante, M., & Castells, E. (2019). What does a zero mean? Understanding false, random and structural zeros in ecology. Methods in Ecology and Evolution, 10(7), 949-959 and can also be accessed here:  https://ddd.uab.cat/record/194390
 "plantherb"
+
+
+#' @title youtubewages
+#' @description randomly selected wages from a search of "How much do I make on YouTube" adapted from the *Skew The Script curriculum* (skewthescript.org).
+#' @format A data frame with 35 rows and 2 variables:
+#' \describe{
+#'   \item{\code{VideoLink}}{character link to video of randomly selected youtuber}
+#'   \item{\code{Amount}}{character wage}
+#'}
+#' @source https://skewthescript.org/8-1
+"youtubewages"
