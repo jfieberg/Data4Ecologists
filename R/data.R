@@ -333,3 +333,20 @@ NULL
 #'}
 #' @source https://skewthescript.org/8-1
 "youtubewages"
+
+
+
+
+#' @title fish
+#' @description data used to predict the number of fish caught by groups of visitors of a state park.
+#' @format A data frame with 250 rows and 6 variables:
+#' \describe{
+#'   \item{\code{count}}{integer number of fish caught}
+#'   \item{\code{nofish}}{integer }
+#'   \item{\code{livebait}}{integer equal to 1 if live bait was used and 0 otherwise
+#'   \item{\code{camper}}{integer equal to 1 if the group had a camper and 0 otherwise}
+#'   \item{\code{persons}}{integer the number of visitors in each group}
+#'   \item{\code{child}}{integer the number of children in each group}
+#'}
+#' @source \url{https://stats.idre.ucla.edu/stat/data/fish.dat} and \url{https://stats.oarc.ucla.edu/r/dae/zip/}
+"fish"
