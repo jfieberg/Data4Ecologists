@@ -335,6 +335,21 @@ NULL
 "youtubewages"
 
 
+#' @title carppassage
+#' @description data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
+#' @format A data frame with 143 rows and 7 variables:
+#' \describe{
+#'   \item{\code{Pass}}{integer equal to 1 if the fish entered the lock and 0 otherwise}
+#'   \item{\code{Approaches}}{integer nubmer of 15-min intervals the fish was detected near the lock entrance}
+#'   \item{\code{Qave}}{double daily discharge in cubic meters per second }
+#'   \item{\code{Tave}}{double average daily water temperature in Celsius}
+#'   \item{\code{Sound}}{integer sound treatment equal to 1 if sound was on and 0 otherwise}
+#'   \item{\code{FishID}}{character Tag ID code unique to each individual fish}
+#'   \item{\code{Date}}{character COLUMN_DESCRIPTION}
+#'}
+#' @source Data were downloaded from \url{https://conservancy.umn.edu/handle/11299/226079} and are described in
+#' Riesgraf AT, Finger JS, Zielinski DP, Dennis III CE, Whitty JM, Sorensen PW (2022) Evaluation of a broadband sound projected from the gates of a navigation lock in the Mississippi River shows it to be a weak deterrent for common carp and unable to block passage. Management of Biological Invasions 13
+"carppassage"
 
 
 #' @title fish
@@ -350,3 +365,21 @@ NULL
 #'}
 #' @source \url{https://stats.idre.ucla.edu/stat/data/fish.dat} and \url{https://stats.oarc.ucla.edu/r/dae/zip/}
 "fish"
+
+
+#' @title wells
+#' @description  data from a water quality study of land on Long Island, New York (Eckhardt et al., 1989).
+#' @format A data frame with 20 rows and 6 variables:
+#' \describe{
+#'   \item{\code{y}}{integer number of wells where TCE was detected, out of n sampled wells in total}
+#'   \item{\code{n}}{integer number of wells sampled}
+#'   \item{\code{land.use}}{character land use type associated with the well locations}
+#'   \item{\code{sewer}}{character whether or not sewers were used in the area around the wells}
+#'   \item{\code{nitrate}}{double  median concentration (mg/L) of nitrate at the N well sites}
+#'   \item{\code{chloride}}{integer median concentration (mg/L) of chloride at the N well sites}
+#'}
+#' @source Data were from Piegorsch and Bailer (2005) and come from a water quality study (Eckhard et al. 1989).
+#' Eckhardt, D. A. Flipse, W. J., and Oaksford, E. T. 1989. Relation between land use and ground-quality in the upper glacial aquifer in Nassau and Suffolk Counties, Long Island. Water-Resources Investigations Report no. 86-4142. US Geological Survey, Syosset, NY.
+#'
+#' Piegorsch, Walter W. and A. John Bailer. 2005. Analyzing Environmental Data. Wiley.
+"wells"
