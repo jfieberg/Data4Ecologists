@@ -375,8 +375,8 @@ NULL
 #'   \item{\code{n}}{integer number of wells sampled}
 #'   \item{\code{land.use}}{character land use type associated with the well locations}
 #'   \item{\code{sewer}}{character whether or not sewers were used in the area around the wells}
-#'   \item{\code{nitrate}}{double  median concentration (mg/L) of nitrate at the N well sites}
-#'   \item{\code{chloride}}{integer median concentration (mg/L) of chloride at the N well sites}
+#'   \item{\code{nitrate}}{double  median concentration (mg/L) of nitrate at the n well sites}
+#'   \item{\code{chloride}}{integer median concentration (mg/L) of chloride at the n well sites}
 #'}
 #' @source Data were from Piegorsch and Bailer (2005) and come from a water quality study (Eckhard et al. 1989).
 #' Eckhardt, D. A. Flipse, W. J., and Oaksford, E. T. 1989. Relation between land use and ground-quality in the upper glacial aquifer in Nassau and Suffolk Counties, Long Island. Water-Resources Investigations Report no. 86-4142. US Geological Survey, Syosset, NY.

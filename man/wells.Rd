@@ -11,8 +11,8 @@ A data frame with 20 rows and 6 variables:
 \item{\code{n}}{integer number of wells sampled}
 \item{\code{land.use}}{character land use type associated with the well locations}
 \item{\code{sewer}}{character whether or not sewers were used in the area around the wells}
-\item{\code{nitrate}}{double  median concentration (mg/L) of nitrate at the N well sites}
-\item{\code{chloride}}{integer median concentration (mg/L) of chloride at the N well sites}
+\item{\code{nitrate}}{double  median concentration (mg/L) of nitrate at the n well sites}
+\item{\code{chloride}}{integer median concentration (mg/L) of chloride at the n well sites}
 }
 }
 \source{
