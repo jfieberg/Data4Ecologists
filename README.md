@@ -4,10 +4,11 @@ This package contains several data sets associated with the book, *Statistics fo
 
 **Data sets:**
 
+- **bearmove**: data set containing movement rates and heart rates of black bears in Minnesota.
+- **beargrowth**: age and weight data from a sample of black bears monitoried in Minnesota.
 - **birds**: bird species richness in different habitat patches sampled in Jamaica.
 - **carppassage**: data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
 - **clutch**:  Mallard (*Anas platyhynchos*) clutch sizes in two types of nest structures and cropland area within a 3.2-km radius circular buffer around the nest structure in western Minnesota during 1997–1999.
-- **beargrowth**: age and weight data from a sample of black bears monitoried in Minnesota.
 - **CovidMN**: data on covid cases in Minnesota, downloaded on January 15, 2021
 - **elephantmove**: weekly movement metrics calculated using location data from 35 African elephants between 2008 and 2015
 - **fish**: data used to predict the number of fish caught by visitors of a state park.

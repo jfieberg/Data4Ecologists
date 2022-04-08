@@ -8,8 +8,7 @@
 A data frame with 250 rows and 6 variables:
 \describe{
 \item{\code{count}}{integer number of fish caught}
-\item{\code{nofish}}{integer }
-\item{\code{livebait}}{integer equal to 1 if live bait was used and 0 otherwise
+\item{\code{livebait}}{integer equal to 1 if live bait was used and 0 otherwise}
 \item{\code{camper}}{integer equal to 1 if the group had a camper and 0 otherwise}
 \item{\code{persons}}{integer the number of visitors in each group}
 \item{\code{child}}{integer the number of children in each group}
