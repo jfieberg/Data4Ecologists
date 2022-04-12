@@ -7,7 +7,7 @@
 \format{
 A data frame with 2768 rows and 10 variables:
 \describe{
-\item{\code{log.move}}{double log movement rate, where movement rate is calculated using the distance between successive telemetry obsevartions divided by the time between observations.}
+\item{\code{log.move}}{double log movement rate, where movement rate is calculated using the distance between successive telemetry obsevartions divided by the time between observations in meters/hour.}
 \item{\code{hr}}{integer heart rate measured using implanted transmitters}
 \item{\code{Season}}{character Season of the observation (Fall, Spring, or Summer)}
 \item{\code{DayNight}}{character Timing of the observation (Day or Night)}
@@ -20,7 +20,9 @@ A data frame with 2768 rows and 10 variables:
 }
 }
 \source{
-Ditmer, M. A. (2014). American black bears: strategies for living in a fragmented, agricultural landscape. PhD Dissertation: University of Minnesota.
+Cardiac biologgers made by Medtronic, plc (Reveal XT Model 9529) were surgically implanted into wild American black bears (Ursus americanus) in northern Minnesota by medical professionals. The biologger data collected from these individual bears measured the heart rate ("hr") of each animal continuously but only saved one average value during each day time (collected from 08:00–20:00) and night time (collected from 00:00–04:00) period on each date ("DayNight"). The associated GPS-locations were collected using both store-on-board GPS units and Iridium satellite collars. We calculated the movement rate (meters/hour) by dividing measured step lengths (i.e., straight-line distances between consecutive GPS observations) by the length of time between locations. We only included locations collected within six hours of one another and reported the log of the mean movement rates ("log.move") occurring during each of the associated daytime and nighttime heart rate interval collection periods. See Ditmer et al. 2015 for further information on this study.
+
+Ditmer, M.A., Garshelis, D.L., Noyce, K.V., Laske, T.G., Iaizzo, P.A., Burk, T.E., Forester, J.D. and Fieberg, J.R., 2015. Behavioral and physiological responses of American black bears to landscape features within an agricultural region. Ecosphere, 6(3), pp.1-21.
 }
 \usage{
 bearmove

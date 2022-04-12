@@ -387,7 +387,7 @@ NULL
 #' @description data set containing observed movement rates and associated average heart rates of 7 black bears in Minnesota.
 #' @format A data frame with 2768 rows and 10 variables:
 #' \describe{
-#'   \item{\code{log.move}}{double log movement rate, where movement rate is calculated using the distance between successive telemetry obsevartions divided by the time between observations.}
+#'   \item{\code{log.move}}{double log movement rate, where movement rate is calculated using the distance between successive telemetry obsevartions divided by the time between observations in meters/hour.}
 #'   \item{\code{hr}}{integer heart rate measured using implanted transmitters}
 #'   \item{\code{Season}}{character Season of the observation (Fall, Spring, or Summer)}
 #'   \item{\code{DayNight}}{character Timing of the observation (Day or Night)}
@@ -398,5 +398,31 @@ NULL
 #'   \item{\code{Year}}{integer Year of the observation}
 #'   \item{\code{BearIDYear}}{integer unique label assigned to each combination of bear + year}
 #'}
-#' @source Ditmer, M. A. (2014). American black bears: strategies for living in a fragmented, agricultural landscape. PhD Dissertation: University of Minnesota.
+#' @source Cardiac biologgers made by Medtronic, plc (Reveal XT Model 9529) were surgically implanted into wild American black bears (Ursus americanus) in northern Minnesota by medical professionals. The biologger data collected from these individual bears measured the heart rate ("hr") of each animal continuously but only saved one average value during each day time (collected from 08:00–20:00) and night time (collected from 00:00–04:00) period on each date ("DayNight"). The associated GPS-locations were collected using both store-on-board GPS units and Iridium satellite collars. We calculated the movement rate (meters/hour) by dividing measured step lengths (i.e., straight-line distances between consecutive GPS observations) by the length of time between locations. We only included locations collected within six hours of one another and reported the log of the mean movement rates ("log.move") occurring during each of the associated daytime and nighttime heart rate interval collection periods. See Ditmer et al. 2015 for further information on this study.
+#'
+#' Ditmer, M.A., Garshelis, D.L., Noyce, K.V., Laske, T.G., Iaizzo, P.A., Burk, T.E., Forester, J.D. and Fieberg, J.R., 2015. Behavioral and physiological responses of American black bears to landscape features within an agricultural region. Ecosphere, 6(3), pp.1-21.
 "bearmove"
+
+#' @title HRdata
+#' @description data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022)
+#' @format A data frame with 359 rows and 8 variables:
+#' \describe{
+#'   \item{\code{AnimalId}}{character unique ID for each wolf}
+#'   \item{\code{PackID}}{character unique pack ID for each wolf}
+#'   \item{\code{StudyArea}}{character Study Area (BC = northeastern British Columbia, WHEC = northern Alberta, RICC = northeastern Alberta, and SK = Saskatchewan)}
+#'   \item{\code{PackSize}}{integer size of the pack}
+#'   \item{\code{Sex}}{character Sex of the individual}
+#'   \item{\code{Season}}{character Season = snow (Nov-April) or snow-free (May-October)}
+#'   \item{\code{EVIScaled}}{double primary productivity (ΔEVI, scaled between 0 and 1)}
+#'   \item{\code{Year}}{integer year of study}
+#'   \item{\code{HRsize}}{double seasonal wolf home range area (km$^2$)}
+#'   \item{\code{DiffDTScaled}}{double number of days monitored, scaled between 0 and 1}
+#'}
+#' @source Dickie, M., Serrouya, R., Avgar, T., McLoughlin, P., McNay, R.S., DeMars, C., Boutin, S. and Ford, A.T., Resource exploitation efficiency collapses the home range of an apex predator. Ecology, p.e3642.
+#'
+#' Data were downloaded from https://zenodo.org/record/5643218.
+"HRData"
+
+
+
+
