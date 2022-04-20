@@ -424,5 +424,21 @@ NULL
 "HRData"
 
 
-
-
+#' @title reeffish
+#' @description catch-effort data for black sea bass from the Southeast Reef Fish Survey.
+#' @format A data frame with 21039 rows and 7 variables:
+#' \describe{
+#'   \item{\code{Year}}{integer Year of survey}
+#'   \item{\code{Date}}{character Date of survey}
+#'   \item{\code{Time}}{character Time of survey}
+#'   \item{\code{Doy}}{double Julian date}
+#'   \item{\code{Hour}}{integer Hour of day (rounded)}
+#'   \item{\code{Duration}}{integer Sampling duration (min)}
+#'   \item{\code{Temperature}}{double Water temperature (degrees C)}
+#'   \item{\code{Depth}}{integer Water depth (m)}
+#'   \item{\code{Seabass}}{integer Number of sea bass, *Centropristis striata* caught in Chevron traps}
+#'}
+#' @source  Southeast Reef Fish Survey data provided by Nathan Bacheler, National Marine Fisheries Service, Southeast Fisheries Science Center, 101 Pivers Island Road, Beaufort NC.
+#'
+#' See also: Bacheler, N. M., & Ballenger, J. C. (2015). Spatial and temporal patterns of black sea bass sizes and catches in the southeastern United States inferred from spatially explicit nonlinear models. Marine and Coastal Fisheries, 7(1), 523-536.
+"reeffish"
