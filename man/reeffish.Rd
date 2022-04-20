@@ -15,7 +15,7 @@ A data frame with 21039 rows and 7 variables:
 \item{\code{Duration}}{integer Sampling duration (min)}
 \item{\code{Temperature}}{double Water temperature (degrees C)}
 \item{\code{Depth}}{integer Water depth (m)}
-\item{\code{Seabass}}{integer Number of sea bass, \emph{Centropristis striata} caught in Chevron traps}
+\item{\code{Seabass}}{integer Number of sea bass, \emph{Centropristis striata}, caught in Chevron traps}
 }
 }
 \source{

@@ -22,7 +22,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **partialr**: simulated data set used to demonstrate added-variable and component + residual plots
 - **plantherb**: data set containing information on plant-herbivore interactions
 - **pines**:  data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland.
-- **reeffish**: catch-effort data for black sea bass from the Southeast Reef Fish Survey.
+- **reeffish**: catch-effort data for black sea bass (*Centropristis striata*) from the Southeast Reef Fish Survey.
 - **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast.
 - **slugs**: number of slugs found beneath 40 tiles in each of two permanent grasslands.
 - **trombone**: comparison of 5 experimental practice conditions for 30 trombonists from 3 colleges.  
