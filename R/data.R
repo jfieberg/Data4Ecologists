@@ -414,6 +414,7 @@ NULL
 #'   \item{\code{Sex}}{character Sex of the individual}
 #'   \item{\code{Season}}{character Season = snow (Nov-April) or snow-free (May-October)}
 #'   \item{\code{EVIScaled}}{double primary productivity (ΔEVI, scaled between 0 and 1)}
+#'   \item{\code{LFD}}{double Density of linear features in the individual's home range}
 #'   \item{\code{Year}}{integer year of study}
 #'   \item{\code{HRsize}}{double seasonal wolf home range area (km$^2$)}
 #'   \item{\code{DiffDTScaled}}{double number of days monitored, scaled between 0 and 1}
