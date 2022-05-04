@@ -12,6 +12,7 @@ A data frame with 306 rows and 5 variables:
 \item{\code{landscape}}{character landscape type (Agriculture, Bauxite, Forest, or Urban )}
 \item{\code{area}}{double area of the habitat patch (ha)}
 \item{\code{log.area.}}{double log area of the habitat patch}
+\item{\code{year}}{integer year of observation}
 }
 }
 \source{
