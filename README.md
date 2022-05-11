@@ -7,6 +7,8 @@ This package contains several data sets associated with the book, *Statistics fo
 - **bearmove**: data set containing movement rates and heart rates of black bears in Minnesota.
 - **beargrowth**: age and weight data from a sample of black bears monitoried in Minnesota.
 - **birds**: bird species richness in different habitat patches sampled in Jamaica.
+- **birdmalariaLFS**: data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
+- **birdmalariaTL**: observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
 - **carppassage**: data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
 - **clutch**:  Mallard (*Anas platyhynchos*) clutch sizes in two types of nest structures and cropland area within a 3.2-km radius circular buffer around the nest structure in western Minnesota during 1997–1999.
 - **CovidMN**: data on covid cases in Minnesota, downloaded on January 15, 2021

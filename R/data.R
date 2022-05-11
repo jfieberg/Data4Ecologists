@@ -444,3 +444,37 @@ NULL
 #'
 #' See also: Bacheler, N. M., & Ballenger, J. C. (2015). Spatial and temporal patterns of black sea bass sizes and catches in the southeastern United States inferred from spatially explicit nonlinear models. Marine and Coastal Fisheries, 7(1), 523-536.
 "reeffish"
+
+
+
+#' @title birdmalariaLFS
+#' @description  data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
+#' @format A data frame with 100 rows and 6 variables:
+#' \describe{
+#'   \item{\code{Ind}}{character individual bird identifier}
+#'   \item{\code{LFS}}{double lifetime reproductive success (number of offspring produced) }
+#'   \item{\code{Sex}}{double sex of the individual, 0 if male, 1 if female}
+#'   \item{\code{year}}{double year of birth}
+#'   \item{\code{infected}}{double infection status = 0 if uninfected, 1 if infected}
+#'   \item{\code{Tlifespan}}{double total lifespan (in years)}
+#'}
+#' Data are from:
+#'
+#' @source  Asghar, M., Hasselquist, D., Hansson, B., Zehtindjiev, P., Westerdahl, H., & Bensch, S. (2015). Hidden costs of infection: chronic malaria accelerates telomere degradation and senescence in wild birds. Science, 347(6220), 436-438.
+#'
+#' Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.d04h0
+"birdmalariaLFS"
+
+#' @title birdmalariaTL
+#' @description observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
+#' @format A data frame with 174 rows and 5 variables:
+#' \describe{
+#'   \item{\code{Ind}}{character individual bird identifier}
+#'   \item{\code{Sex}}{double sex of the individual, 0 if male, 1 if female}
+#'   \item{\code{year}}{double  year of birth}
+#'   \item{\code{Age}}{double age of the bird}
+#'   \item{\code{infected}}{double infection status = 0 if uninfected, 1 if infected}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"birdmalariaTL"
+
