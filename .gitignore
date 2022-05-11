@@ -5,6 +5,9 @@
 # raw data files
 data-raw
 
+# papers
+papers
+
 # Session Data files
 .RData
 
