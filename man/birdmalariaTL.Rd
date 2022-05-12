@@ -11,7 +11,8 @@ A data frame with 174 rows and 5 variables:
 \item{\code{Sex}}{double sex of the individual, 0 if male, 1 if female}
 \item{\code{year}}{double  year of birth}
 \item{\code{Age}}{double age of the bird}
-\item{\code{infected}}{double infection status = 0 if uninfected, 1 if infected}
+\item{\code{infected}}
+\item{\code{TL}}{double telomere length}
 }
 }
 \source{
