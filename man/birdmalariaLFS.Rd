@@ -13,6 +13,7 @@ A data frame with 100 rows and 6 variables:
 \item{\code{year}}{double year of birth}
 \item{\code{infected}}{double infection status = 0 if uninfected, 1 if infected}
 \item{\code{Tlifespan}}{double total lifespan (in years)}
+\item{\code{BTL}}{double telomere length in birth year}
 }
 Data are from:
 }
