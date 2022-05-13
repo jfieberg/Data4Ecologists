@@ -480,3 +480,23 @@ NULL
 #' @source \url{http://somewhere.important.com/}
 "birdmalariaTL"
 
+
+
+#' @title birdmalariaO
+#' @description DATASET_DESCRIPTION
+#' @format A data frame with 207 rows and 10 variables:
+#' \describe{
+#'   \item{\code{ID}}{double  individual bird (offspring) identity at birth}
+#'   \item{\code{brood}}{double brood identifier}
+#'   \item{\code{broodyear}}{double year of birth}
+#'   \item{\code{Sex}}{double Sex of the offspring (0 if male, 1 if female)}
+#'   \item{\code{OffBTL}}{double  Offspring ealy-life telomere length (at 9 day age)}
+#'   \item{\code{mmal}}{double Mother malaria status at the time of breeding (1 if infected and 0 otherwise)}
+#'   \item{\code{mage}}{double Mother age at the time of breeding}
+#'   \item{\code{dam}}{character Unique identifier for each mother}
+#'   \item{\code{Sire}}{character Unique identifier for each father}
+#'   \item{\code{fmal}}{double Father malaria status at time of breeding (1 if infected and 0 otherwise)}
+#'   \item{\code{fage}}{double Father's age at time of breeding}
+#'}
+#' @source \url{http://somewhere.important.com/}
+"birdmalariaO"
