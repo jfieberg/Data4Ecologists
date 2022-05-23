@@ -29,6 +29,6 @@ A data frame with 237 rows and 16 variables:
 willowtits
 }
 \description{
-detection/non-detection and count data of willow tits (\emph{Poecile montanus}) during the Swiss Survey of Common Breeding Birds.
+Ddetection/non-detection and count data of willow tits (\emph{Poecile montanus}) during the Swiss Survey of Common Breeding Birds.
 }
 \keyword{datasets}

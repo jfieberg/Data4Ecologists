@@ -24,6 +24,6 @@ Maryland Biological Stream Survey. Downloaded from \url{http://www.biostathandbo
 longnosedace
 }
 \description{
-abundance data of longnose dace (\emph{Rhinichthys cataractae}) and in-stream variables collected from the Maryland Biological Stream Survey.
+Abundance data of longnose dace (\emph{Rhinichthys cataractae}) and in-stream variables collected from the Maryland Biological Stream Survey.
 }
 \keyword{datasets}

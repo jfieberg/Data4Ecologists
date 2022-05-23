@@ -25,6 +25,6 @@ Zicus, M. C., D. P. Rave, and J. Fieberg. (2006). Cost effectiveness of single v
 nestocc
 }
 \description{
-data from a study of mallard nesting structures in Minnesota.
+Data from a study of mallard nesting structures in Minnesota.
 }
 \keyword{datasets}

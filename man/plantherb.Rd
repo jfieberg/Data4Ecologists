@@ -22,6 +22,6 @@ Data are from Blasco‐Moreno, A., Pérez‐Casany, M., Puig, P., Morante, M., &
 plantherb
 }
 \description{
-data set containing information on plant-herbivore interactions
+Data set containing information on plant-herbivore interactions
 }
 \keyword{datasets}

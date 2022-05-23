@@ -24,7 +24,7 @@ North, E. A., Johnson, G. R., & Burk, T. E. (2015). Trunk flare diameter predict
 trunkfl
 }
 \description{
-data set containing measurements of trunk flare diameter and diameter at breast height for different species of trees in Minnesota cities. The data were collected for the purpose of developing predictive models
+Data set containing measurements of trunk flare diameter and diameter at breast height for different species of trees in Minnesota cities. The data were collected for the purpose of developing predictive models
 to inform management planning for city streets trees with the goal of reducing sidewalk damage.
 }
 \keyword{datasets}

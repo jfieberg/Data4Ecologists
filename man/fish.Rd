@@ -21,6 +21,6 @@ A data frame with 250 rows and 6 variables:
 fish
 }
 \description{
-data used to predict the number of fish caught by groups of visitors of a state park.
+Data used to predict the number of fish caught by groups of visitors of a state park.
 }
 \keyword{datasets}

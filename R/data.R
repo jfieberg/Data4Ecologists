@@ -60,7 +60,7 @@ NULL
 
 
 #' @title longnosedace
-#' @description abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
+#' @description Abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
 #' @format A data frame with 68 rows and 8 variables:
 #' \describe{
 #'   \item{\code{stream}}{character name of surveyed stream}
@@ -122,7 +122,7 @@ NULL
 "Kelp"
 
 #' @title slugs
-#' @description number of slugs found beneath 40 tiles in each of two permanent grasslands.
+#' @description Number of slugs found beneath 40 tiles in each of two permanent grasslands.
 #' @format A data frame with 80 rows and 2 variables:
 #' \describe{
 #'   \item{\code{slugs}}{integer count of the number of slugs under a tile}
@@ -133,7 +133,7 @@ NULL
 
 
 #' @title beargrowth
-#' @description size and weigth measurements for 390 black bears monitored in Minnesota
+#' @description Size and weigth measurements for 390 black bears monitored in Minnesota
 #' @format A data frame with 835 rows and 4 variables:
 #' \describe{
 #'   \item{\code{id}}{integer unique identifier for each bear}
@@ -181,7 +181,7 @@ NULL
 
 
 #' @title pines
-#' @description data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland from Bigler (2016).
+#' @description Data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland from Bigler (2016).
 #' @format A data frame with 160 rows and 4 variables:
 #' \describe{
 #'   \item{\code{site}}{character site of data collection}
@@ -197,7 +197,7 @@ NULL
 
 
 #' @title nestocc
-#' @description data from a study of mallard nesting structures in Minnesota.
+#' @description Data from a study of mallard nesting structures in Minnesota.
 #' @format A data frame with 1236 rows and 7 variables:
 #' \describe{
 #'   \item{\code{strtno}}{integer unique id for each nesting structure}
@@ -215,7 +215,7 @@ NULL
 
 
 #' @title gala
-#' @description  plant species richness for 29 islands in the Galapagos Islands archipelago
+#' @description  Plant species richness for 29 islands in the Galapagos Islands archipelago
 #' @format A data frame with 29 rows and 8 variables:
 #' \describe{
 #'   \item{\code{Island}}{character island where the observation was taken}
@@ -232,7 +232,7 @@ NULL
 
 
 #' @title trunkfl
-#' @description  data set containing measurements of trunk flare diameter and diameter at breast height for different species of trees in Minnesota cities. The data were collected for the purpose of developing predictive models
+#' @description  Data set containing measurements of trunk flare diameter and diameter at breast height for different species of trees in Minnesota cities. The data were collected for the purpose of developing predictive models
 #' to inform management planning for city streets trees with the goal of reducing sidewalk damage.
 #' @format A data frame with 619 rows and 8 variables:
 #' \describe{
@@ -251,7 +251,7 @@ NULL
 
 
 #' @title parasitoidlifespan
-#' @description survival data collected for a parasitoid (*Aphelinus certus*) of the soybean aphid (*Aphis glycines*) over a range of host densities using a laboratory assay.
+#' @description Survival data collected for a parasitoid (*Aphelinus certus*) of the soybean aphid (*Aphis glycines*) over a range of host densities using a laboratory assay.
 #' @format A data frame with 55 rows and 6 variables:
 #' \describe{
 #'   \item{\code{treatment}}{double aphid density (0.5 = one aphid every other day)}
@@ -269,7 +269,7 @@ NULL
 
 
 #' @title willowtits
-#' @description  detection/non-detection and count data of willow tits (*Poecile montanus*) during the Swiss Survey of Common Breeding Birds.
+#' @description Ddetection/non-detection and count data of willow tits (*Poecile montanus*) during the Swiss Survey of Common Breeding Birds.
 #' @format A data frame with 237 rows and 16 variables:
 #' \describe{
 #'   \item{\code{c.1}}{integer count of willow tits on the first of three survey occassions}
@@ -295,7 +295,7 @@ NULL
 
 
 #' @title birds
-#' @description bird species richness in different habitat patches sampled in Jamaica.
+#' @description Bird species richness in different habitat patches sampled in Jamaica.
 #' @format A data frame with 306 rows and 5 variables:
 #' \describe{
 #'   \item{\code{patch}}{character identifier for each habitat patch}
@@ -311,7 +311,7 @@ NULL
 
 
 #' @title plantherb
-#' @description data set containing information on plant-herbivore interactions
+#' @description Data set containing information on plant-herbivore interactions
 #' @format A data frame with 476 rows and 6 variables:
 #' \describe{
 #'   \item{\code{Subject}}{character number that identifies the individual plant}
@@ -326,7 +326,7 @@ NULL
 
 
 #' @title youtubewages
-#' @description randomly selected wages from a search of "How much do I make on YouTube" adapted from the *Skew The Script curriculum* (skewthescript.org).
+#' @description Randomly selected wages from a search of "How much do I make on YouTube" adapted from the *Skew The Script curriculum* (skewthescript.org).
 #' @format A data frame with 35 rows and 2 variables:
 #' \describe{
 #'   \item{\code{VideoLink}}{character link to video of randomly selected youtuber}
@@ -337,7 +337,7 @@ NULL
 
 
 #' @title carppassage
-#' @description data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
+#' @description Data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
 #' @format A data frame with 143 rows and 7 variables:
 #' \describe{
 #'   \item{\code{Pass}}{integer equal to 1 if the fish entered the lock and 0 otherwise}
@@ -354,7 +354,7 @@ NULL
 
 
 #' @title fish
-#' @description data used to predict the number of fish caught by groups of visitors of a state park.
+#' @description Data used to predict the number of fish caught by groups of visitors of a state park.
 #' @format A data frame with 250 rows and 6 variables:
 #' \describe{
 #'   \item{\code{count}}{integer number of fish caught}
@@ -368,7 +368,7 @@ NULL
 
 
 #' @title wells
-#' @description  data from a water quality study of land on Long Island, New York (Eckhardt et al., 1989).
+#' @description  Data from a water quality study of land on Long Island, New York (Eckhardt et al., 1989).
 #' @format A data frame with 20 rows and 6 variables:
 #' \describe{
 #'   \item{\code{y}}{integer number of wells where TCE was detected, out of n sampled wells in total}
@@ -385,7 +385,7 @@ NULL
 "wells"
 
 #' @title bearmove
-#' @description data set containing observed movement rates and associated average heart rates of 7 black bears in Minnesota.
+#' @description Data set containing observed movement rates and associated average heart rates of 7 black bears in Minnesota.
 #' @format A data frame with 2768 rows and 10 variables:
 #' \describe{
 #'   \item{\code{log.move}}{double log movement rate, where movement rate is calculated using the distance between successive telemetry obsevartions divided by the time between observations in meters/hour.}
@@ -405,7 +405,7 @@ NULL
 "bearmove"
 
 #' @title HRdata
-#' @description data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022)
+#' @description Data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022)
 #' @format A data frame with 359 rows and 8 variables:
 #' \describe{
 #'   \item{\code{AnimalId}}{character unique ID for each wolf}
@@ -427,7 +427,7 @@ NULL
 
 
 #' @title reeffish
-#' @description catch-effort data for black sea bass from the Southeast Reef Fish Survey.
+#' @description Catch-effort data for black sea bass from the Southeast Reef Fish Survey.
 #' @format A data frame with 21039 rows and 7 variables:
 #' \describe{
 #'   \item{\code{Year}}{integer Year of survey}
@@ -448,7 +448,7 @@ NULL
 
 
 #' @title birdmalariaLFS
-#' @description  data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
+#' @description  Data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
 #' @format A data frame with 100 rows and 6 variables:
 #' \describe{
 #'   \item{\code{Ind}}{character individual bird identifier}
@@ -466,24 +466,30 @@ NULL
 #' Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.d04h0
 "birdmalariaLFS"
 
+
+
 #' @title birdmalariaTL
-#' @description observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
+#' @description Observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
 #' @format A data frame with 174 rows and 5 variables:
 #' \describe{
 #'   \item{\code{Ind}}{character individual bird identifier}
 #'   \item{\code{Sex}}{double sex of the individual, 0 if male, 1 if female}
 #'   \item{\code{year}}{double  year of birth}
 #'   \item{\code{Age}}{double age of the bird}
-#'   \item{\code{infected}}
+#'   \item{\code{infected}}{infection status = 0 if uninfected, 1 if infected}
 #'   \item{\code{TL}}{double telomere length}
 #'}
-#' @source \url{http://somewhere.important.com/}
+#'
+#'Data are from:
+#'
+#' @source Asghar, M., Hasselquist, D., Hansson, B., Zehtindjiev, P., Westerdahl, H., & Bensch, S. (2015). Hidden costs of infection: chronic malaria accelerates telomere degradation and senescence in wild birds. Science, 347(6220), 436-438.
+#'
+#' Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.d04h0
 "birdmalariaTL"
 
 
-
 #' @title birdmalariaO
-#' @description DATASET_DESCRIPTION
+#' @description  Great reed warbler observations of offspring telomere length and mothers infection status (infected with malaria or not) from Asghar et al. 2015. Science 347:436-438.
 #' @format A data frame with 207 rows and 10 variables:
 #' \describe{
 #'   \item{\code{ID}}{double  individual bird (offspring) identity at birth}
@@ -498,7 +504,9 @@ NULL
 #'   \item{\code{fmal}}{double Father malaria status at time of breeding (1 if infected and 0 otherwise)}
 #'   \item{\code{fage}}{double Father's age at time of breeding}
 #'}
-#' @source \url{http://somewhere.important.com/}
+#'  Asghar, M., Hasselquist, D., Hansson, B., Zehtindjiev, P., Westerdahl, H., & Bensch, S. (2015). Hidden costs of infection: chronic malaria accelerates telomere degradation and senescence in wild birds. Science, 347(6220), 436-438.
+#'
+#' Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.d04h0
 "birdmalariaO"
 
 
@@ -523,4 +531,7 @@ NULL
 #'   \item{\code{Ecoregion}}{integer Ecoregion; 15 = Northern Rockies, 16 = Idaho Batholith, 17 = Middle Rockies, 41 = Canadian Rockies, 42 = Northwestern Glaciated Plains, 43 = Northwestern Great Plains}
 #'   \item{\code{GRID_ID}}{integer POM grid ID number}
 #'}
-#' @source \url{h
+#' @source  Sells, S. N., Mitchell, M. S., Podruzny, K. M., Ausband, D. E., Emlen, D. J., Gude, J. A., ... & Loonam, K. E. (2022). Competition, prey, and mortalities influence gray wolf group size. The Journal of Wildlife Management, 86(3), e22193.
+#'
+#' Data were originally downloaded from:  https://zenodo.org/record/5838722/export/schemaorg_jsonld
+"WolfPackSize"

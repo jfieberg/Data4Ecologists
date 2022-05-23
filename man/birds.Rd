@@ -22,6 +22,6 @@ These data were used by Jack Weiss in his ecological statistics course (site no 
 birds
 }
 \description{
-bird species richness in different habitat patches sampled in Jamaica.
+Bird species richness in different habitat patches sampled in Jamaica.
 }
 \keyword{datasets}

@@ -25,6 +25,6 @@ Piegorsch, Walter W. and A. John Bailer. 2005. Analyzing Environmental Data. Wil
 wells
 }
 \description{
-data from a water quality study of land on Long Island, New York (Eckhardt et al., 1989).
+Data from a water quality study of land on Long Island, New York (Eckhardt et al., 1989).
 }
 \keyword{datasets}

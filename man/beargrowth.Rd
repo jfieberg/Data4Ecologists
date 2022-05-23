@@ -18,6 +18,6 @@ A data frame with 835 rows and 4 variables:
 beargrowth
 }
 \description{
-size and weigth measurements for 390 black bears monitored in Minnesota
+Size and weigth measurements for 390 black bears monitored in Minnesota
 }
 \keyword{datasets}

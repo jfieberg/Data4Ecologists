@@ -18,6 +18,6 @@ https://skewthescript.org/8-1
 youtubewages
 }
 \description{
-randomly selected wages from a search of "How much do I make on YouTube" adapted from the \emph{Skew The Script curriculum} (skewthescript.org).
+Randomly selected wages from a search of "How much do I make on YouTube" adapted from the \emph{Skew The Script curriculum} (skewthescript.org).
 }
 \keyword{datasets}

@@ -24,6 +24,6 @@ Riesgraf AT, Finger JS, Zielinski DP, Dennis III CE, Whitty JM, Sorensen PW (202
 carppassage
 }
 \description{
-data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
+Data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
 }
 \keyword{datasets}

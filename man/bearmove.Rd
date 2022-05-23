@@ -28,6 +28,6 @@ Ditmer, M.A., Garshelis, D.L., Noyce, K.V., Laske, T.G., Iaizzo, P.A., Burk, T.E
 bearmove
 }
 \description{
-data set containing observed movement rates and associated average heart rates of 7 black bears in Minnesota.
+Data set containing observed movement rates and associated average heart rates of 7 black bears in Minnesota.
 }
 \keyword{datasets}

@@ -26,6 +26,6 @@ Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/
 birdmalariaLFS
 }
 \description{
-data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
+Data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
 }
 \keyword{datasets}

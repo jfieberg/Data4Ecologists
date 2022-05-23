@@ -27,6 +27,6 @@ See also: Bacheler, N. M., & Ballenger, J. C. (2015). Spatial and temporal patte
 reeffish
 }
 \description{
-catch-effort data for black sea bass from the Southeast Reef Fish Survey.
+Catch-effort data for black sea bass from the Southeast Reef Fish Survey.
 }
 \keyword{datasets}

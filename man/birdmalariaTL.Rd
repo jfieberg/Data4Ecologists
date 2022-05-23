@@ -11,17 +11,21 @@ A data frame with 174 rows and 5 variables:
 \item{\code{Sex}}{double sex of the individual, 0 if male, 1 if female}
 \item{\code{year}}{double  year of birth}
 \item{\code{Age}}{double age of the bird}
-\item{\code{infected}}
+\item{\code{infected}}{infection status = 0 if uninfected, 1 if infected}
 \item{\code{TL}}{double telomere length}
 }
+
+Data are from:
 }
 \source{
-\url{http://somewhere.important.com/}
+Asghar, M., Hasselquist, D., Hansson, B., Zehtindjiev, P., Westerdahl, H., & Bensch, S. (2015). Hidden costs of infection: chronic malaria accelerates telomere degradation and senescence in wild birds. Science, 347(6220), 436-438.
+
+Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.d04h0
 }
 \usage{
 birdmalariaTL
 }
 \description{
-observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
+Observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
 }
 \keyword{datasets}

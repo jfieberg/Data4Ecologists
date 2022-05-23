@@ -18,6 +18,6 @@ Crawley, M. J. (2012). The R book. John Wiley & Sons.\url{http://www.bio.ic.ac.u
 slugs
 }
 \description{
-number of slugs found beneath 40 tiles in each of two permanent grasslands.
+Number of slugs found beneath 40 tiles in each of two permanent grasslands.
 }
 \keyword{datasets}

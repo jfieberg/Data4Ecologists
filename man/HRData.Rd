@@ -29,6 +29,6 @@ Data were downloaded from https://zenodo.org/record/5643218.
 HRData
 }
 \description{
-data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022)
+Data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022)
 }
 \keyword{datasets}

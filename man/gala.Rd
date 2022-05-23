@@ -24,6 +24,6 @@ Johnson, M.P., and Raven, P.H. (1973). Species number and endemism: The Galapago
 gala
 }
 \description{
-plant species richness for 29 islands in the Galapagos Islands archipelago
+Plant species richness for 29 islands in the Galapagos Islands archipelago
 }
 \keyword{datasets}

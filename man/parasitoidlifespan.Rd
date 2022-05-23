@@ -24,6 +24,6 @@ See also Miksanek, J. R., & Heimpel, G. E. (2020). Density-dependent lifespan an
 parasitoidlifespan
 }
 \description{
-survival data collected for a parasitoid (\emph{Aphelinus certus}) of the soybean aphid (\emph{Aphis glycines}) over a range of host densities using a laboratory assay.
+Survival data collected for a parasitoid (\emph{Aphelinus certus}) of the soybean aphid (\emph{Aphis glycines}) over a range of host densities using a laboratory assay.
 }
 \keyword{datasets}

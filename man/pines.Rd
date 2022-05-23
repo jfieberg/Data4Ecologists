@@ -20,6 +20,6 @@ Bigler, C. (2016). Trade-offs between growth rate, tree size and lifespan of mou
 pines
 }
 \description{
-data on lifespan on maximum diameter at breast height for Mountain Pines (\emph{Pinus montana}) in Switzerland from Bigler (2016).
+Data on lifespan on maximum diameter at breast height for Mountain Pines (\emph{Pinus montana}) in Switzerland from Bigler (2016).
 }
 \keyword{datasets}

@@ -19,14 +19,14 @@ A data frame with 207 rows and 10 variables:
 \item{\code{fmal}}{double Father malaria status at time of breeding (1 if infected and 0 otherwise)}
 \item{\code{fage}}{double Father's age at time of breeding}
 }
-}
-\source{
-\url{http://somewhere.important.com/}
+Asghar, M., Hasselquist, D., Hansson, B., Zehtindjiev, P., Westerdahl, H., & Bensch, S. (2015). Hidden costs of infection: chronic malaria accelerates telomere degradation and senescence in wild birds. Science, 347(6220), 436-438.
+
+Orinal (pre-processed data) can be downloaded from: https://datadryad.org/stash/dataset/doi:10.5061/dryad.d04h0
 }
 \usage{
 birdmalariaO
 }
 \description{
-DATASET_DESCRIPTION
+Great reed warbler observations of offspring telomere length and mothers infection status (infected with malaria or not) from Asghar et al. 2015. Science 347:436-438.
 }
 \keyword{datasets}
