@@ -316,7 +316,7 @@ NULL
 #' \describe{
 #'   \item{\code{Subject}}{character number that identifies the individual plant}
 #'   \item{\code{Location}}{character factor that indentifies each location. There are 6 locations.	}
-#'   \item{\code{Species}}{character actor that identifies each species. There are 4 species.}
+#'   \item{\code{Species}}{character  that identifies each species. There are 4 species.}
 #'   \item{\code{Damaged}}{integer number of damaged heads in an individual plant}
 #'   \item{\code{Dissected}}{integer  number of dissected heads in an individual plant}
 #'   \item{\code{Total_heads}}{integer  number of total heads produced in an individual plant}
