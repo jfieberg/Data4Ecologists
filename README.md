@@ -13,6 +13,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **carppassage**: data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
 - **clutch**:  Mallard (*Anas platyhynchos*) clutch sizes in two types of nest structures and cropland area within a 3.2-km radius circular buffer around the nest structure in western Minnesota during 1997–1999.
 - **CovidMN**: data on covid cases in Minnesota, downloaded on January 15, 2021
+- **d.grassall**:  counts of grassland birds in wildlife management areas subjected to one of two treatments (cut or control). Data are from Thompson et al. 2016.
 - **elephantmove**: weekly movement metrics calculated using location data from 35 African elephants between 2008 and 2015
 - **fish**: data used to predict the number of fish caught by visitors of a state park.
 - **gala**:   plant species richness for 29 islands in the Galapagos Islands archipelago

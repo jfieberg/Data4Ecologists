@@ -535,3 +535,20 @@ NULL
 #'
 #' Data were originally downloaded from:  https://zenodo.org/record/5838722/export/schemaorg_jsonld
 "WolfPackSize"
+
+#' @title d.grassall
+#' @description  Counts of grassland birds on 14 waterfowl production areas subjected to one of two treatments (cut or control). Cuts occurred after an initial observation year. Data are from Thompson et al. 2016.
+#' @format A data frame with 1755 rows and 7 variables:
+#' \describe{
+#'   \item{\code{stn.unit.year}}{character unique ID (station, waterfowl production area, year of survey)}
+#'   \item{\code{total}}{double  total count of grassland bird species within 100 m of the surveyer}
+#'   \item{\code{wpa}}{character site (waterfowl production area)}
+#'   \item{\code{year}}{double year of survey}
+#'   \item{\code{trt}}{character identifying if the site was originally cut (=1) or served as a control (=0)}
+#'   \item{\code{observer}}{character observer }
+#'   \item{\code{I.trt}}{character equal to 1 if observation was after cutting and 0 otherwise}
+#'}
+#' @source Thompson, S. J., Arnold, T. W., Fieberg, J., Granfors, D. A., Vacek, S., & Palaia, N. (2016). Grassland birds demonstrate delayed response to large‐scale tree removal in central North America. Journal of Applied Ecology, 53(1), 284-294.
+#'
+#' Data were originally downloaded from: Thompson, Sarah, J. (2015). Data and R Code for Analyses in "Grassland birds demonstrate delayed response to large-scale tree removal in central North America". Retrieved from the Data Repository for the University of Minnesota, http://dx.doi.org/10.13020/D6C88M.
+"d.grassall"
