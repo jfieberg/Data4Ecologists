@@ -133,10 +133,9 @@ NULL
 
 
 #' @title beargrowth
-#' @description Size and weigth measurements for 390 black bears monitored in Minnesota
+#' @description Size and weigth measurements for 390 black bears monitored in Minnesota by the MN Department of Natural Resources.
 #' @format A data frame with 835 rows and 4 variables:
 #' \describe{
-#'   \item{\code{id}}{integer unique identifier for each bear}
 #'   \item{\code{sex}}{character sex of the individual}
 #'   \item{\code{age}}{integer age of the individual in years}
 #'   \item{\code{wtkg}}{double weight in kilograms}
