@@ -551,3 +551,40 @@ NULL
 #'
 #' Data were originally downloaded from: Thompson, Sarah, J. (2015). Data and R Code for Analyses in "Grassland birds demonstrate delayed response to large-scale tree removal in central North America". Retrieved from the Data Repository for the University of Minnesota, http://dx.doi.org/10.13020/D6C88M.
 "d.grassall"
+
+#' @title d.woodall
+#' @description Counts of woodland/parkland birds  in waterfowl production areas subjected to one of two treatments (cut or control). Data are from Thompson et al. 2016.
+#' @format A data frame with 1755 rows and 8 variables:
+#' \describe{
+#'   \item{\code{stn.unit.year}}{character unique ID (station, waterfowl production area, year of survey)}
+#'   \item{\code{total}}{double  total count of grassland bird species within 100 m of the surveyer}
+#'   \item{\code{wpa}}{character site (waterfowl production area)}
+#'   \item{\code{year}}{double year of survey}
+#'   \item{\code{trt}}{character identifying if the site was originally cut (=1) or served as a control (=0)}
+#'   \item{\code{observer}}{character observer }
+#'   \item{\code{I.trt}}{character equal to 1 if observation was after cutting and 0 otherwise}
+#'}
+#' @source Thompson, S. J., Arnold, T. W., Fieberg, J., Granfors, D. A., Vacek, S., & Palaia, N. (2016). Grassland birds demonstrate delayed response to large‐scale tree removal in central North America. Journal of Applied Ecology, 53(1), 284-294.
+#'
+#' Data were originally downloaded from: Thompson, Sarah, J. (2015). Data and R Code for Analyses in "Grassland birds demonstrate delayed response to large-scale tree removal in central North America". Retrieved from the Data Repository for the University of Minnesota, http://dx.doi.org/10.13020/D6C88M.
+"d.woodall"
+
+
+
+
+
+#' @title beedat
+#' @description  Data set containing choices made by bees during experiments used to evaluate whether they could learn to select for odd or even numbers and transfer that learning to new situations.  Data are from Howard et al. (2022)
+#' @format A data frame with 1040 rows and 6 variables:
+#' \describe{
+#'   \item{\code{Bee}}{integer ID of the individual bee}
+#'   \item{\code{Trial}}{integer Choice number ranging from 1-20 for each test}
+#'   \item{\code{Choice}}{integer Individual choices made by each bee. Choice = 1 if a correct choice was made and 0 otherwise.}
+#'   \item{\code{Test}}{integer The learning test for even trained bees is marked as ‘1’, the learning test for odd trained bees is marked as ‘2’, the transfer test for even trained bees is marked as ‘3’, and the transfer test for odd trained bees is marked ‘4’.}
+#'   \item{\code{Ieven}}{double Indicator variable equal to 1 for even trained bees and 0 for odd trained bees}
+#'   \item{\code{Itransfer}}{double Indicator variable equal to 1 if the observation was from a learning test and 0 for a transfer test}
+#'}
+#' @source  Howard, S. R., Greentree, J., Avarguès-Weber, A., Garcia, J. E., Greentree, A. D., & Dyer, A. G. (2022). Numerosity Categorization by Parity in an Insect and Simple Neural Network. Frontiers in Ecology and Evolution, 252.
+#'
+#' Data were downloaded from supplemental material associated with the above paper.
+"beedat"
