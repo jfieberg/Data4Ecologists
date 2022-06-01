@@ -597,6 +597,7 @@ NULL
 #' @format A data frame with 131 rows and 8 variables:
 #' \describe{
 #'   \item{\code{Place}}{character Site of observation = TZ, WZ, or CA}
+#'   \item{\code{DayofYear}}{integer Julian date}
 #'   \item{\code{Year}}{integer Year of observation}
 #'   \item{\code{Lek}}{character Lek associated with the observation}
 #'   \item{\code{MaleID}}{character Male ID}
