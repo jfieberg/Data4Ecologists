@@ -7,6 +7,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **bearmove**: data set containing movement rates and heart rates of black bears in Minnesota.
 - **beargrowth**: age and weight data from a sample of black bears monitoried in Minnesota by the MN Department of Natural Resources.
 - **beedat**: Data set containing choices made by bees during experiments used to evaluate whether they could learn to select for odd or even numbers and transfer that learning to new situations.  Data are from Howard et al. (2022).
+- **beepollen**: Data from Harder and Thompson 1989 quantifying the amount of pollen removed by bumblebee queens and honeybee workers as a function of time spent at flowers.
 - **birds**: bird species richness in different habitat patches sampled in Jamaica.
 - **birdmalariaLFS**: data set containing lifetime reproductive success, sex, year of birth, and lifespan for great reed warblers from Asghar et al. 2015. Science 347:436-438.
 - **birdmalariaTL**: observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.

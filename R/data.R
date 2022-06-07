@@ -609,3 +609,17 @@ NULL
 #'
 #' They were downloaded from Dryad here: https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt562
 "peacock"
+
+
+#' @title beepollen
+#' @description Data from Harder and Thompson 1989 quantifying the amount of pollen removed by bumblebee queens and honeybee workers as a function of time spent at flowers.
+#' @format A data frame with 47 rows and 3 variables:
+#' \describe{
+#'   \item{\code{removed}}{double proportion of pollen removed}
+#'   \item{\code{duration}}{integer duration of visits in seconds}
+#'   \item{\code{queen}}{double indicator variable equal to 1 if the bee is a queen and 0 if it is a worker bee}
+#'}
+#' @source  Harder, L. D., & Thomson, J. D. (1989). Evolutionary options for maximizing pollen dispersal of animal-pollinated plants. The American Naturalist, 133(3), 323-344.
+#'
+#'
+"beepollen"
