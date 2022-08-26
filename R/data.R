@@ -623,3 +623,16 @@ NULL
 #'
 #'
 "beepollen"
+
+
+#' @title sockeye
+#' @description estimates of Sockeye salmon in the Fraser River that pass through a monitoring station at Mission and that eventually spawn or are caught up river.
+#' @format A data frame with 111 rows and 4 variables:
+#' \describe{
+#'   \item{\code{Run}}{character Group of salmon characterized by the timing of their migration.}
+#'   \item{\code{Year}}{integer Year of observation}
+#'   \item{\code{MisEsc}}{integer Estimated number of salmon passing through the monitoring station at Mission.}
+#'   \item{\code{SpnEsc}}{double Estimated number of salmon that spawn or are caught up river from Mission.}
+#'}
+#' @source John Fieberg
+"sockeye"
