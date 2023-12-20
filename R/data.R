@@ -651,7 +651,7 @@ NULL
 
 #' @title predPom
 #' @description A data file with paired mortality estimates of humans and non-human predators on shared prey.
-#' @format A data frame with 99 rows and 24 variables:
+#' @format A data frame with 99 rows and 22 variables:
 #' \describe{
 #'   \item{\code{CaseID}}{integer  Indicates exploitation rates of a particular prey from the same study. Rows with the same CaseID represent exploitation rates by different predators from the same study.}
 #'   \item{\code{Ecosystem}}{logical  Indicates Marine or Terrestrial Ecosystem}
