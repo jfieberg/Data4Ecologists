@@ -31,6 +31,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **peacock**: Observations of female presence before and after peacock solo hoot calls from Roslyn and Montgomerie (2013).
 - **plantherb**: data set containing information on plant-herbivore interactions
 - **pines**:  data on lifespan on maximum diameter at breast height for Mountain Pines (*Pinus montana*) in Switzerland.
+- **predPom**: A data file with paired mortality estimates of humans and non-human predators on shared prey. 
 - **reeffish**: catch-effort data for black sea bass (*Centropristis striata*) from the Southeast Reef Fish Survey.
 - **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast.
 - **slugs**: number of slugs found beneath 40 tiles in each of two permanent grasslands.
