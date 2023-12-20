@@ -20,6 +20,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **elephantmove**: weekly movement metrics calculated using location data from 35 African elephants between 2008 and 2015
 - **fish**: data used to predict the number of fish caught by visitors of a state park.
 - **gala**:   plant species richness for 29 islands in the Galapagos Islands archipelago
+- **hgdat**: mercury and log mercury concentrations from Rave et al. 2014
 - **HrData**: data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022).
 - **Kelp**: data from a study of the effect of various environmental factors on the shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*.
 - **Selake**: A fictitious (but realistic) data containing logged Selenium concentrations in a set of 9 lakes and a sample of 83 fish from these lakes. 

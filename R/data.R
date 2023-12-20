@@ -636,3 +636,15 @@ NULL
 #'}
 #' @source John Fieberg
 "sockeye"
+
+
+#' @title hgdat
+#' @description Mercury and log mercury concentrations from  hooded mergansers eggs collected in Minnesota in 1981 and 2004.
+#' @format A data frame with 79 rows and 3 variables:
+#' \describe{
+#'   \item{\code{year}}{integer Year egg was collected}
+#'   \item{\code{Hg}}{double Mercury concentration (parts per million)}
+#'   \item{\code{log.Hg}}{double Natural log mercury concentation}
+#'}
+#' @source Rave, D. P., Zicus, M. C., Fieberg, J. R., Savoy, L., & Regan, K. (2014). Trends in eggshell thickness and mercury in common goldeneye and hooded merganser eggs. Wildlife Society Bulletin, 38(1), 9-13.
+"hgdat"
