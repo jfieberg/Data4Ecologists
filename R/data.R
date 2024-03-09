@@ -680,3 +680,58 @@ NULL
 #'
 #' Darimont, C. T., Fox, C. H., Bryan, H. M., and Reimchen, T. E. (2015). The unique ecology of human predators. Science, 349(6250), 858-860.
 "predPom"
+
+
+#' @title Fish_Mercury
+#' @description Mercury concentrations in various fish species collected across a number of states from 2018 to 2019.
+#' @format A data frame with 378 rows and 4 variables:
+#' \describe{
+#'   \item{\code{species}}{integer species common name}
+#'   \item{\code{length}}{double length of the fish (mm)}
+#'   \item{\code{Hg}}{double mercury concentration (ug/wet g)}
+#'   \item{\code{state}}{integer State where fish was sampled}
+#'}
+#' @source
+#' U.S. Environmental Protection Agency. (2021). National Aquatic Resource Surveys. Rivers and Streams, Fish Tissue (Plugs) - Mercury 2018/2019 (data and metadata files). Available from U.S. EPA website: http://www.epa.gov/national-aquatic-resource-surveys/data-national-aquatic-resource-surveys. Date accessed: 2024-02-24.
+"Fish_Mercury"
+
+
+#' @title EggReject
+#' @description Experiment to evaluate differential responses to nest parasitism for bold and shy individuals
+#' @format A data frame with 57 rows and 7 variables:
+#' \describe{
+#'   \item{\code{nest.ID}}{character nest id}
+#'   \item{\code{site}}{character site either Dongzhai, Henan or  Zuojia, Jilin}
+#'   \item{\code{clutch.size}}{integer number of eggs in the clutch}
+#'   \item{\code{exp.date}}{double indicates the date when a painted blue white-rumped munia egg was added to the nest}
+#'   \item{\code{Julian.date}}{integer Julian date corresponding to exp.date}
+#'   \item{\code{Result}}{character response of female tits to the addition of the painted blue white-rumped munia egg（“rejected” if the egg was rejected and “not” if the egg was accepted)}
+#'   \item{\code{Behavioral.Type}}{character response of incubating female tits to the approaching humans (“shy” individuals left the nest whereas "bold" individuals did not)}
+#'}
+#' @source
+#' Shen, C., Yu, J., Yin, D., Liu, Q., Wang, H., & Liang, W. (2023). Bold–shy continuum does not account for egg rejection behaviour in the Japanese tit. Biological Journal of the Linnean Society, 140(1), 33-40.
+#'
+#' Shen, Chao et al. (2023). Data for: Shy-boldness cannot predict egg rejection in the Japanese tit [Dataset]. Dryad. https://doi.org/10.5061/dryad.vt4b8gtx4
+#'
+#' Data names modified from the original form contained on Dryad via the following link:
+#' https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtx4
+"EggReject"
+
+
+
+
+#' @title ButterflyCounts
+#' @description Counts of the baltimore checkerspot butterfly from 2012-2020.
+#' @format A data frame with 118 rows and 4 variables:
+#' \describe{
+#'   \item{\code{year}}{integer year of data collection}
+#'   \item{\code{date}}{character date of data collection}
+#'   \item{\code{count}}{integer count of butterflies}
+#'   \item{\code{DOY}}{double day of year associated with the count}
+#'}
+#' @source
+#' Edwards, C. B., & Crone, E. E. (2021). Estimating abundance and phenology from transect count data with GLMs. Oikos, 130(8), 1335-1345.
+#'
+#' Edwards, Collin; Crone, Elizxabeth (2021). Estimating abundance and phenology from transect count data with GLMs [Dataset]. Dryad. https://doi.org/10.5061/dryad.rn8pk0p9h
+"ButterflyCounts"
+
