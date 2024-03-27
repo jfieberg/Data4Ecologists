@@ -13,6 +13,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **birdmalariaTL**: observations of telomere length as well as demographics and infection status of great reed warblers from Asghar et al. 2015. Science 347:436-438.
 - **birdmalariaO**:  great reed warbler observations of offspring telomere length and mothers' infection status (infected with malaria or not) from Asghar et al. 2015. Science 347:436-438.
 - **ButterflyCounts**:  Counts of the baltimore checkerspot butterfly from 2012-2020.
+- **CarnivoreScat**:  data from feeding trials used to build biomass models relating consumed biomass per collectable scat to prey weight.
 - **carppassage**: data from experimental trials aimed at blocking passage of carp in lock and dams along the Missippi River.
 - **clutch**:  Mallard (*Anas platyhynchos*) clutch sizes in two types of nest structures and cropland area within a 3.2-km radius circular buffer around the nest structure in western Minnesota during 1997–1999.
 - **CovidMN**: data on covid cases in Minnesota, downloaded on January 15, 2021
@@ -24,12 +25,12 @@ This package contains several data sets associated with the book, *Statistics fo
 - **Fish_Mercury**: Mercury concentrations in various fish species collected across a number of states from 2018 to 2019.
 - **gala**:   plant species richness for 29 islands in the Galapagos Islands archipelago
 - **hgdat**: mercury and log mercury concentrations from Rave et al. 2014
+- **HatcheryObs**: Sightings of humpback whales at hatchery release sites in Southeast Alaska
 - **HrData**: data containing the size of wolf home ranges, extent of linear features, and primary productivity (from Dickie et al. 2022).
 - **Kelp**: data from a study of the effect of various environmental factors on the shallow (upper) distributional limit of the subtidal kelp *Macrocystis pyrifera*.
-- **Selake**: A fictitious (but realistic) data containing logged Selenium concentrations in a set of 9 lakes and a sample of 83 fish from these lakes. 
-- **parasitoidlifespan**:  survival data collected for a parasitoid (*Aphelinus certus*) of the soybean aphid (*Aphis glycines*) over a range of host densities using a laboratory assay (from Miksanek & Heimpel, 2020).
 - **longnosedace**: abundance data of longnose dace (*Rhinichthys cataractae*) and in-stream variables collected from the Maryland Biological Stream Survey.
 - **nestocc**: nest occupancy data from a study of mallard nest boxes in Minnesota.
+- **parasitoidlifespan**:  survival data collected for a parasitoid (*Aphelinus certus*) of the soybean aphid (*Aphis glycines*) over a range of host densities using a laboratory assay (from Miksanek & Heimpel, 2020).
 - **partialr**: simulated data set used to demonstrate added-variable and component + residual plots
 - **peacock**: Observations of female presence before and after peacock solo hoot calls from Roslyn and Montgomerie (2013).
 - **plantherb**: data set containing information on plant-herbivore interactions
@@ -37,6 +38,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **predPom**: A data file with paired mortality estimates of humans and non-human predators on shared prey. 
 - **reeffish**: catch-effort data for black sea bass (*Centropristis striata*) from the Southeast Reef Fish Survey.
 - **RIKZdat**: marine benthic data from nine inter-tidal areas along the Dutch coast.
+- **Selake**: A fictitious (but realistic) data containing logged Selenium concentrations in a set of 9 lakes and a sample of 83 fish from these lakes. 
 - **slugs**: number of slugs found beneath 40 tiles in each of two permanent grasslands.
 - **sockeye**: estimates of Sockeye salmon in the Fraser River that pass through a monitoring station at Mission and that eventually spawn or are caught up river.
 - **trombone**: comparison of 5 experimental practice conditions for 30 trombonists from 3 colleges.  

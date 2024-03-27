@@ -25,6 +25,6 @@ Chenoweth, E. M., Straley, J. M., McPhee, M. V., Atkinson, S., & Reifenstuhl, S.
 HatcheryObs
 }
 \description{
-sightings of humpback whales at hatchery release sites in Southeast Alaska
+Sightings of humpback whales at hatchery release sites in Southeast Alaska
 }
 \keyword{datasets}
