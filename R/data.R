@@ -735,3 +735,20 @@ NULL
 #' Edwards, Collin; Crone, Elizxabeth (2021). Estimating abundance and phenology from transect count data with GLMs [Dataset]. Dryad. https://doi.org/10.5061/dryad.rn8pk0p9h
 "ButterflyCounts"
 
+
+#' @title HatcheryObs
+#' @description sightings of humpback whales at hatchery release sites in Southeast Alaska
+#' @format A data frame with 2252 rows and 7 variables:
+#' \describe{
+#'   \item{\code{Date}}{character Date of observation}
+#'   \item{\code{Year}}{double Year of observation}
+#'   \item{\code{Hatchery}}{integer Hatchery where observation was made}
+#'   \item{\code{DOY}}{integer Day of year}
+#'   \item{\code{Timing}}{integer Before, during, or after salmon were released from the hatchery}
+#'   \item{\code{Observed}}{integer 1 if humpback whales were observed and 0 otherwise}
+#'   \item{\code{duration}}{double  the total duration of observation effort (min)}
+#'}
+#' @source Chenoweth, Ellen M. et al. (2017). Data from: Humpback whales feed on hatchery-released juvenile salmon [Dataset]. Dryad. https://doi.org/10.5061/dryad.ms75s
+#'
+#' Chenoweth, E. M., Straley, J. M., McPhee, M. V., Atkinson, S., & Reifenstuhl, S. (2017). Humpback whales feed on hatchery-released juvenile salmon. Royal Society Open Science, 4(7), 170180.
+"HatcheryObs"
