@@ -2,9 +2,21 @@
 % Please edit documentation in R/data.R
 \docType{package}
 \name{Data4Ecologists}
+\alias{Data4Ecologists-package}
 \alias{Data4Ecologists}
 \title{Data sets associated with Statistics for Ecologists}
 \description{
 This package contains data sets accompanying the book,
 Statistics for ecologists.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/jfieberg/Data4Ecologists}
+}
+
+}
+\author{
+\strong{Maintainer}: John Fieberg \email{jfieberg@umn.edu} (\href{https://orcid.org/0000-0002-3180-7021}{ORCID})
+
 }

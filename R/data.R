@@ -32,6 +32,42 @@ NULL
 "CovidMN"
 
 
+#' @title SoilChem
+#' @description Estimates of phosphorus concentration in the sediment measured in two different ways.
+#' @format A data frame with 69 rows and 4 variables:
+#' \describe{
+#'   \item{\code{SampleID}}{character Sample Identifier}
+#'   \item{\code{Combined.Type}}{character Type of sediment erosional source subdivided into categories within each type to describe location of sampling or substrate material}
+#'   \item{\code{P}}{double Sediment phosphorus concentration, in milligrams per kilogram of sieved fine sediment}
+#'   \item{\code{SRP}}{double Water extractable soluble reactive phosphorus concentration, in milligrams per kilogram of sieved fine sediment}
+#'}
+#' @source These data are an edited subset of the data in this [data repository](https://conservancy.umn.edu/items/1dab3397-c604-4f4b-a9c0-93487d50d43d) (see Barker et al. 2019).
+#' Cases with missing values for either phosphorus measurement have been dropped, and the
+#' varaibles have been renamed so that they can be read into R.
+#'
+#' Combined.Types:
+#'
+#' - Ag_M = Agricultural Topsoil, Mid Slope
+#' - Ag_S = Agricultural Topsoil, Summit of Slope
+#' - Ag_To = Agricultural Topsoil, Toe of Slope
+#' - Bl_A = Bluff Alluvium
+#' - Bl_T = Bluff Till
+#' - CH_CH = Channel Substrate (channel bed material)
+#' - RV_A = Ravine Alluvium
+#' - RV_T = Ravine Till
+#' - RV_U = Ravine Upland Soil
+#' - SB_A = Streambank Alluvium
+#' - SB_T = Streambank Till
+#' - SB_U = Streambank Upland Soil
+#' - SS_L = Suspended Sediment, Lower Gage, Le Sueur River at St. Clair
+#' - SS_U = Suspended Sediment, Upper Gage, Le Sueur River at Minnesota highway 66
+#'
+#'
+"SoilChem"
+
+
+
+
 #' @title trombone
 #' @description Comparison of 5 experimental practice conditions for 30 trombonists from 3 colleges. Pre-test and post-test scores.
 #' @format A data frame with 30 rows and 3 variables:
