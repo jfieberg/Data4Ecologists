@@ -62,7 +62,9 @@ NULL
 #' - SS_L = Suspended Sediment, Lower Gage, Le Sueur River at St. Clair
 #' - SS_U = Suspended Sediment, Upper Gage, Le Sueur River at Minnesota highway 66
 #'
+#' **Reference**
 #'
+#' Baker, Anna; Finlay, Jacques; Gran, Karen; Rorer, Michelle; Belo, Tessa; Atkins, Walter; Muramoto-Mathieu, Megumi; Yetter, Kara; Katherine, Kemmitt. (2019). Le Sueur River Basin Sediment Characterization - chemical and physical properties of sediments collected 2015-2018. Retrieved from the Data Repository for the University of Minnesota (DRUM), https://doi.org/10.13020/zbm3-9d68.
 "SoilChem"
 
 
