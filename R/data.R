@@ -2,7 +2,7 @@
 #'
 #' This package contains data sets accompanying the book,
 #' Statistics for ecologists.
-#' @docType package
+#' @docType _PACKAGE
 #' @name Data4Ecologists
 NULL
 
@@ -37,7 +37,7 @@ NULL
 #' @format A data frame with 69 rows and 4 variables:
 #' \describe{
 #'   \item{\code{SampleID}}{character Sample Identifier}
-#'   \item{\code{Combined.Type}}{character Type of sediment erosional source subdivided into categories within each type to describe location of sampling or substrate material}
+#'   \item{\code{Type}}{character Type of sediment/erosional source}
 #'   \item{\code{P}}{double Sediment phosphorus concentration, in milligrams per kilogram of sieved fine sediment}
 #'   \item{\code{SRP}}{double Water extractable soluble reactive phosphorus concentration, in milligrams per kilogram of sieved fine sediment}
 #'}
@@ -45,22 +45,15 @@ NULL
 #' Cases with missing values for either phosphorus measurement have been dropped, and the
 #' varaibles have been renamed so that they can be read into R.
 #'
-#' Combined.Types:
+#' Types:
 #'
-#' - Ag_M = Agricultural Topsoil, Mid Slope
-#' - Ag_S = Agricultural Topsoil, Summit of Slope
-#' - Ag_To = Agricultural Topsoil, Toe of Slope
-#' - Bl_A = Bluff Alluvium
-#' - Bl_T = Bluff Till
-#' - CH_CH = Channel Substrate (channel bed material)
-#' - RV_A = Ravine Alluvium
-#' - RV_T = Ravine Till
-#' - RV_U = Ravine Upland Soil
-#' - SB_A = Streambank Alluvium
-#' - SB_T = Streambank Till
-#' - SB_U = Streambank Upland Soil
-#' - SS_L = Suspended Sediment, Lower Gage, Le Sueur River at St. Clair
-#' - SS_U = Suspended Sediment, Upper Gage, Le Sueur River at Minnesota highway 66
+#' - Ag = Agricultural Topsoil
+#' - Bl = Bluff
+#' - CH = Channel Substrate (channel bed material)
+#' - PB = Point Bar
+#' - RV = Ravine
+#' - SB = Streambank
+#' - SS = Suspended Sediment
 #'
 #' **Reference**
 #'

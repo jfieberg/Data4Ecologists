@@ -8,7 +8,7 @@
 A data frame with 69 rows and 4 variables:
 \describe{
 \item{\code{SampleID}}{character Sample Identifier}
-\item{\code{Combined.Type}}{character Type of sediment erosional source subdivided into categories within each type to describe location of sampling or substrate material}
+\item{\code{Type}}{character Type of sediment/erosional source}
 \item{\code{P}}{double Sediment phosphorus concentration, in milligrams per kilogram of sieved fine sediment}
 \item{\code{SRP}}{double Water extractable soluble reactive phosphorus concentration, in milligrams per kilogram of sieved fine sediment}
 }
@@ -18,22 +18,15 @@ These data are an edited subset of the data in this \href{https://conservancy.um
 Cases with missing values for either phosphorus measurement have been dropped, and the
 varaibles have been renamed so that they can be read into R.
 
-Combined.Types:
+Types:
 \itemize{
-\item Ag_M = Agricultural Topsoil, Mid Slope
-\item Ag_S = Agricultural Topsoil, Summit of Slope
-\item Ag_To = Agricultural Topsoil, Toe of Slope
-\item Bl_A = Bluff Alluvium
-\item Bl_T = Bluff Till
-\item CH_CH = Channel Substrate (channel bed material)
-\item RV_A = Ravine Alluvium
-\item RV_T = Ravine Till
-\item RV_U = Ravine Upland Soil
-\item SB_A = Streambank Alluvium
-\item SB_T = Streambank Till
-\item SB_U = Streambank Upland Soil
-\item SS_L = Suspended Sediment, Lower Gage, Le Sueur River at St. Clair
-\item SS_U = Suspended Sediment, Upper Gage, Le Sueur River at Minnesota highway 66
+\item Ag = Agricultural Topsoil
+\item Bl = Bluff
+\item CH = Channel Substrate (channel bed material)
+\item PB = Point Bar
+\item RV = Ravine
+\item SB = Streambank
+\item SS = Suspended Sediment
 }
 
 \strong{Reference}
