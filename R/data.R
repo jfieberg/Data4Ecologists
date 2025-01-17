@@ -31,6 +31,26 @@ NULL
 #' @source \url{https://covidtracking.com/about-data/data-definitions}
 "CovidMN"
 
+#' @title Swallowtail
+#' @description  Swallowtail butterfly wing and tail measurements
+#' @format A data frame with 194 rows and 5 variables:
+#' \describe{
+#'   \item{\code{Species}}{character Subspecies of Swallowtail}
+#'   \item{\code{Sex}}{character Sex of the individual}
+#'   \item{\code{Forewing_area}}{double  area (cm$^2$) associated with the individual's forewing}
+#'   \item{\code{Hindwing_area}}{double area (cm$^2$) associated with the individual's hindwing}
+#'   \item{\code{Tail_length}}{double length (cm) associated with the individual's tail length}
+#'}
+#' @source Data downloaded from:
+#'
+#' Nudds, Robert; Koutrouditsou, Lydia (2022). Swallowtail butterfly wing and tail measurements [Dataset]. Dryad. https://doi.org/10.5061/dryad.ffbg79ctn
+#'
+#' These data come from the following paper:
+#'
+#' Koutrouditsou, L. K., & Nudds, R. L. (2021). No evidence of sexual dimorphism in the tails of the swallowtail butterflies Papilio machaon gorganus and P. m. britannicus. Ecology and Evolution, 11(9), 4744-4749.
+#'
+"Swallowtail"
+
 
 #' @title SoilChem
 #' @description Estimates of phosphorus concentration in the sediment measured in two different ways.
