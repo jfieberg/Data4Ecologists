@@ -48,6 +48,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **trunkfl**: data set containing measurements of trunk flare diameter and diameter at breast height for different species of trees in Minnesota cities. The data were collected for the purpose of developing predictive models to inform management planning for city streets trees with the goal of reducing sidewalk damage.
 - **willowtits**: detection/non-detection and counts  of willow tits (*Poecile montanus*) during the Swiss Survey of Common Breeding Birds. 
 - **WolfPackSize**: annual pack sizes associated with wolves in Montana. Data are from Sells et al. 2022.
+- **WolfPathogen**: pathogen data collected from gray wolves from Brandell et al. (2021ab)
 - **youtubewages**: 35 randomly selected wages from a search of "How much do I make on YouTube" adapted from the *Skew The Script curriculum* (skewthescript.org).
 
 

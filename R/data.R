@@ -31,6 +31,42 @@ NULL
 #' @source \url{https://covidtracking.com/about-data/data-definitions}
 "CovidMN"
 
+#' @title WolfPathogen
+#' @description Pathogen and parasite exposure data collected on gray wolves by Brandell et al. (2021).
+#' @format A data frame with 1986 rows and 23 variables:
+#' \describe{
+#'   \item{\code{pop}}{character Wolf population/study area abbreviation. Alaska Peninsula (AK PEN), Denali National Park (DENALI), central-eastern Alaska (INT AK), Yukon-Charley National Preserve (YUCH), Ellesmere Island (ELLESMERE), North Slave Northwest Territories (N NWT), South Slave Northwest Territories (SS NWT), British Columbia (BC), southeastern Alaska (SE AK), Banff & Jasper National Parks (BAN JAS), Montana (MT), Yellowstone National Park (YNP), Grand Teton National Park (GTNP), Mexican wolves (MEXICAN), Ontario (ONT), Superior National Forest (SNF), and the Upper Peninsula of Michigan (MI).}
+#'   \item{\code{year}}{integer Biological year, birth month = first month. April = British Columbia/Banff/Jasper National Parks and south, May = SE Alaska and north).}
+#'   \item{\code{age.cat}}{character Estimate of wolf age class. P = Pup (<1 year old), S = subadult (1-2 years old), and A = adult (great than or equal to 3 years old).}
+#'   \item{\code{sex}}{character F = Female, M = Male}
+#'   \item{\code{color}}{character B = black, G = gray}
+#'   \item{\code{lat}}{double latitude of study area centroid}
+#'   \item{\code{long}}{double longitude of study area centroid}
+#'   \item{\code{habitat}}{double index of habitat quality}
+#'   \item{\code{human}}{double Number of people per 1000-km2}
+#'   \item{\code{pop.density}}{double Mean estimate of the number of wolves per 1000-km2 in each study area}
+#'   \item{\code{pack.size}}{double Mean annual pack size in each study area}
+#'   \item{\code{standard.habitat}}{double standardized habitat}
+#'   \item{\code{standard.human}}{double standardized human density}
+#'   \item{\code{standard.pop}}{double standardized wolf population density}
+#'   \item{\code{standard.packsize}}{double standardized packsize}
+#'   \item{\code{standard.latitude}}{double standardized latitude}
+#'   \item{\code{standard.longitude}}{double standardized longitude}
+#'   \item{\code{cav.binary}}{integer Presence of canine adenovirus (coded as a 1, 0 otherwise)}
+#'   \item{\code{cdv.binary}}{integer Presence of canine distemper virus (coded as a 1, 0 otherwise)}
+#'   \item{\code{cpv.binary}}{integer Presence of canine parvovirus-2 (coded as a 1, 0 otherwise)}
+#'   \item{\code{chv.binary}}{integer Presence of canine herpesvirus (coded as a 1, 0 otherwise)}
+#'   \item{\code{neo.binary}}{integer Presence of Neospora caninum (coded as a 1, 0 otherwise)}
+#'   \item{\code{toxo.binary}}{integer Presence of Toxoplasma gondii (coded as a 1, 0 otherwise)}
+#'}
+#' @source  Data were downloaded from the following dryad data repository:
+#'
+#' Brandell, Ellen E (2021). Serological dataset and R code for: Patterns and processes of pathogen exposure in gray wolves across North America [Dataset]. Dryad. https://doi.org/10.5061/dryad.5hqbzkh51.
+#'
+#' The data were analyzed in the following paper:
+#'
+#' Brandell, Ellen E. et al. (2021), Patterns and processes of pathogen exposure in gray wolves across North America, Scientific Reports, Journal-article, https://doi.org/10.1038/s41598-021-81192-w.
+"WolfPathogen"
 
 
 #' @title PolikSST
