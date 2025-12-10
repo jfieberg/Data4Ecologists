@@ -17,9 +17,9 @@ A data frame with 57 rows and 7 variables:
 }
 }
 \source{
-Shen, C., Yu, J., Yin, D., Liu, Q., Wang, H., & Liang, W. (2023). Bold–shy continuum does not account for egg rejection behaviour in the Japanese tit. Biological Journal of the Linnean Society, 140(1), 33-40.
+Shen, C., Yu, J., Yin, D., Liu, Q., Wang, H., and Liang, W. (2023). Bold–shy continuum does not account for egg rejection behaviour in the Japanese tit. Biological Journal of the Linnean Society, 140(1), 33-40.
 
-Shen, Chao et al. (2023). Data for: Shy-boldness cannot predict egg rejection in the Japanese tit \link{Dataset}. Dryad. https://doi.org/10.5061/dryad.vt4b8gtx4
+Shen, Chao et al. (2023). Data for: Shy-boldness cannot predict egg rejection in the Japanese tit. Dryad. https://doi.org/10.5061/dryad.vt4b8gtx4
 
 Data names modified from the original form contained on Dryad via the following link:
 https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtx4

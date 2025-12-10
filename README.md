@@ -23,6 +23,7 @@ This package contains several data sets associated with the book, *Statistics fo
 - **elephantmove**: weekly movement metrics calculated using location data from 35 African elephants between 2008 and 2015
 - **fish**: data used to predict the number of fish caught by visitors of a state park.
 - **Fish_Mercury**: Mercury concentrations in various fish species collected across a number of states from 2018 to 2019.
+- **fishmorph**: Morphometric measurements of prickleback fishes
 - **gala**:   plant species richness for 29 islands in the Galapagos Islands archipelago
 - **hgdat**: mercury and log mercury concentrations from Rave et al. 2014
 - **HatcheryObs**: Sightings of humpback whales at hatchery release sites in Southeast Alaska

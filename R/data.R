@@ -69,23 +69,46 @@ NULL
 "WolfPathogen"
 
 
+#' @title fishmorph
+#' @description Morphometric measurements of prickleback fishes contributed by RC Hoover and Dr. Kassandra Ford
+#' @format A data frame with 45 rows and 13 variables:
+#' \describe{
+#'   \item{\code{Specimen}}{character Specimen ID}
+#'   \item{\code{Species}}{character Species of fish}
+#'   \item{\code{Diet_sp}}{character Diet = C (carnivore), H (herbivore), or O (omnivore)}
+#'   \item{\code{TL}}{integer Total Length (in mm)}
+#'   \item{\code{skull_length}}{double Skull length (in mm)}
+#'   \item{\code{lj_length}}{double Lower jaw length (in mm)}
+#'   \item{\code{lj_closing}}{double Lower jaw length when closed (in mm)}
+#'   \item{\code{lj_opening}}{double Lower jaw length when open (in mm)}
+#'   \item{\code{jaw_width}}{double Jaw width (in mm)}
+#'   \item{\code{premaxilla_height}}{double Height of premaxilla  (in mm)}
+#'   \item{\code{premaxilla_length}}{double Lenght of premaxilla (in mm)}
+#'   \item{\code{maxilla_length}}{double Length of maxilla  (in mm)}
+#'   \item{\code{UJ_length}}{double Universal Joint length (in mm)}
+#'}
+#' @source These data were contributed by [Richard Hoover](https://www.bellmuseum.umn.edu/grad-awards/2024-graduate-award-and-fellowship-recipients/richard-rc-hoover/) and [Dr. Kassandra Ford](https://www.kassandraford.com/)
+"fishmorph"
+
 #' @title PolikSST
 #' @description  Sea-surface temperature (SST) data reconstructed using two different molecular signatures
 #' @format A data frame with 139 rows and 8 variables:
 #' \describe{
-#'   \item{\code{Site}}{integer 	Location where the core was taken during Leg 160 of the Ocean Drilling Program}
+#'   \item{\code{Site}}{integer Location where the core was taken during Leg 160 of the Ocean Drilling Program}
 #'   \item{\code{Sapropel}}{character Three sapropels sampled: S3 (81 ka), S5 (124 ka), and i-282 (2.943 Ma)}
 #'   \item{\code{mbsf}}{double Meters below seafloor, i.e. the depth of the sample}
 #'   \item{\code{d15N.TN}}{double The nitrogen isotopic value of the bulk sediment, in permil}
 #'   \item{\code{TEX86.SST}}{double SST reconsctructed using the TEX86 method, in degrees C}
 #'   \item{\code{Uk37.SST}}{double SST reconsctructed using the Uk37 method, in degrees C}
-#'   \item{\code{Temp.Anomaly}}{double The difference between TEX86 and Uk37 SST reconstructions
+#'   \item{\code{Temp.Anomaly}}{double The difference between TEX86 and Uk37 SST reconstructions}
 #'   \item{\code{Sediment}}{character Whether the sample comes from inside the sapropel or from the surrounding, carbon-poor marl sediment}
 #'}
 #' @source These data come from the following publication:
 #'
-#' Polik, C. A., Elling, F. J., & Pearson, A. (2018). Impacts of paleoecology on the TEX86 sea surface temperature proxy in the Pliocene‐Pleistocene Mediterranean Sea. Paleoceanography and Paleoclimatology, 33(12), 1472-1489.
+#' Polik, C. A., Elling, F. J., and Pearson, A. (2018). Impacts of paleoecology on the TEX86 sea surface temperature proxy in the Pliocene‐Pleistocene Mediterranean Sea. Paleoceanography and Paleoclimatology, 33(12), 1472-1489.
+#'
 "PolikSST"
+
 
 #' @title Swallowtail
 #' @description  Swallowtail butterfly wing and tail measurements
@@ -816,9 +839,9 @@ NULL
 #'   \item{\code{Behavioral.Type}}{character response of incubating female tits to the approaching humans (“shy” individuals left the nest whereas "bold" individuals did not)}
 #'}
 #' @source
-#' Shen, C., Yu, J., Yin, D., Liu, Q., Wang, H., & Liang, W. (2023). Bold–shy continuum does not account for egg rejection behaviour in the Japanese tit. Biological Journal of the Linnean Society, 140(1), 33-40.
+#' Shen, C., Yu, J., Yin, D., Liu, Q., Wang, H., and Liang, W. (2023). Bold–shy continuum does not account for egg rejection behaviour in the Japanese tit. Biological Journal of the Linnean Society, 140(1), 33-40.
 #'
-#' Shen, Chao et al. (2023). Data for: Shy-boldness cannot predict egg rejection in the Japanese tit [Dataset]. Dryad. https://doi.org/10.5061/dryad.vt4b8gtx4
+#' Shen, Chao et al. (2023). Data for: Shy-boldness cannot predict egg rejection in the Japanese tit. Dryad. https://doi.org/10.5061/dryad.vt4b8gtx4
 #'
 #' Data names modified from the original form contained on Dryad via the following link:
 #' https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtx4
