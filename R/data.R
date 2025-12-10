@@ -83,9 +83,9 @@ NULL
 #'   \item{\code{lj_opening}}{double Lower jaw length when open (in mm)}
 #'   \item{\code{jaw_width}}{double Jaw width (in mm)}
 #'   \item{\code{premaxilla_height}}{double Height of premaxilla  (in mm)}
-#'   \item{\code{premaxilla_length}}{double Lenght of premaxilla (in mm)}
+#'   \item{\code{premaxilla_length}}{double Length of premaxilla (in mm)}
 #'   \item{\code{maxilla_length}}{double Length of maxilla  (in mm)}
-#'   \item{\code{UJ_length}}{double Universal Joint length (in mm)}
+#'   \item{\code{UJ_length}}{double Upper jaw length (in mm)}
 #'}
 #' @source These data were contributed by [Richard Hoover](https://www.bellmuseum.umn.edu/grad-awards/2024-graduate-award-and-fellowship-recipients/richard-rc-hoover/) and [Dr. Kassandra Ford](https://www.kassandraford.com/)
 "fishmorph"

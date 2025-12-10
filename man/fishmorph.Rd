@@ -17,9 +17,9 @@ A data frame with 45 rows and 13 variables:
 \item{\code{lj_opening}}{double Lower jaw length when open (in mm)}
 \item{\code{jaw_width}}{double Jaw width (in mm)}
 \item{\code{premaxilla_height}}{double Height of premaxilla  (in mm)}
-\item{\code{premaxilla_length}}{double Lenght of premaxilla (in mm)}
+\item{\code{premaxilla_length}}{double Length of premaxilla (in mm)}
 \item{\code{maxilla_length}}{double Length of maxilla  (in mm)}
-\item{\code{UJ_length}}{double Universal Joint length (in mm)}
+\item{\code{UJ_length}}{double Upper jaw length (in mm)}
 }
 }
 \source{
